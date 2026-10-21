@@ -1,0 +1,68 @@
+name: Bug report
+description: Report a broken notebook, script, link, or setup instruction.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the curriculum. Please include enough detail for the issue to be reproduced without guessing.
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Path, section, or link to the affected material.
+      placeholder: 05-deep-learning-foundations/notebooks/01-autograd.ipynb
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is broken or incorrect?
+      placeholder: The notebook fails when...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the exact command, notebook cell, or sequence of actions.
+      placeholder: |
+        1. Activate the environment
+        2. Open ...
+        3. Run ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, Python version, and relevant package versions.
+      placeholder: Windows 11, Python 3.12, PyTorch 2.x
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error output
+      description: Paste the relevant traceback or error message without secrets or personal data.
+      render: shell
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues before opening this report.
+          required: true
+        - label: I removed secrets, credentials, and personal data from the report.
+          required: true

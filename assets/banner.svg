@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">python-to-ai</title>
+  <desc id="bannerDesc">A 54-week journey from Python fundamentals to modern AI systems.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="55%" stop-color="#0b1729"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#94a3b8" stroke-width="0.6" opacity="0.16"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
+  <circle cx="1075" cy="58" r="180" fill="#38bdf8" opacity="0.08"/>
+  <circle cx="930" cy="286" r="150" fill="#34d399" opacity="0.07"/>
+
+  <g stroke="url(#accent)" stroke-width="1.4" opacity="0.5" fill="none">
+    <path d="M 760 106 L 842 72 L 918 128 L 1008 92 L 1084 148"/>
+    <path d="M 760 106 L 836 168 L 918 128 L 986 196 L 1084 148"/>
+    <path d="M 842 72 L 836 168 L 900 244 L 986 196 L 1060 250"/>
+    <path d="M 918 128 L 900 244 L 1008 92"/>
+    <path d="M 760 106 L 802 222 L 900 244"/>
+  </g>
+
+  <g fill="url(#node)" filter="url(#softGlow)">
+    <circle cx="760" cy="106" r="7"/>
+    <circle cx="842" cy="72" r="5"/>
+    <circle cx="918" cy="128" r="8"/>
+    <circle cx="1008" cy="92" r="5"/>
+    <circle cx="1084" cy="148" r="6"/>
+    <circle cx="836" cy="168" r="5"/>
+    <circle cx="986" cy="196" r="7"/>
+    <circle cx="802" cy="222" r="4"/>
+    <circle cx="900" cy="244" r="6"/>
+    <circle cx="1060" cy="250" r="5"/>
+  </g>
+
+  <g fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif">
+    <text x="72" y="132" font-size="64" font-weight="700" letter-spacing="-2">python-to-ai</text>
+    <text x="74" y="180" font-size="23" fill="#cbd5e1">From Python fundamentals to modern AI systems</text>
+    <text x="74" y="224" font-size="16" fill="#94a3b8">10 modules / 54 weeks / build from first principles</text>
+  </g>
+
+  <g transform="translate(74 250)">
+    <rect width="152" height="34" rx="17" fill="#0f2438" stroke="#38bdf8" stroke-opacity="0.55"/>
+    <text x="76" y="22" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#7dd3fc" letter-spacing="1">2026-2027</text>
+  </g>
+
+  <g transform="translate(1002 38)">
+    <rect width="138" height="34" rx="17" fill="#0d2a24" stroke="#34d399" stroke-opacity="0.55"/>
+    <text x="69" y="22" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#6ee7b7" letter-spacing="1.5">ML + GENAI</text>
+  </g>
+</svg>

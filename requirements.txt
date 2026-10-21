@@ -1,0 +1,116 @@
+# python-to-ai full learning stack
+# Install the PyTorch build that matches your CPU/GPU platform when needed.
+
+# Core scientific computing
+numpy>=2.1,<3
+pandas>=2.2,<4
+scipy>=1.14,<2
+matplotlib>=3.9,<5
+seaborn>=0.13,<1
+plotly>=5.24,<7
+scikit-learn>=1.5,<2
+statsmodels>=0.14,<1
+sympy>=1.13,<2
+joblib>=1.4,<2
+openpyxl>=3.1,<4
+
+# Module 01: Python fundamentals and data workflows
+requests>=2.32,<3
+httpx>=0.28,<1
+beautifulsoup4>=4.12,<5
+lxml>=5.3,<7
+polars>=1.17,<2
+pyarrow>=18.0,<25
+duckdb>=1.1,<2
+sqlalchemy>=2.0,<3
+python-dotenv>=1.0,<2
+rich>=13.9,<15
+
+# Module 02: Mathematics for machine learning
+# NumPy, SciPy, SymPy, and Matplotlib above cover this module.
+
+# Module 03: Probability and statistics
+# SciPy, statsmodels, seaborn, and scikit-learn above cover this module.
+
+# Module 04: Classical machine learning
+xgboost>=2.1,<4
+lightgbm>=4.5,<5
+catboost>=1.2,<2
+imbalanced-learn>=0.13,<1
+optuna>=4.1,<5
+shap>=0.46,<1
+
+# Modules 05 and 06: Deep learning and multi-modal models
+torch>=2.6,<3
+torchvision>=0.21,<1
+torchaudio>=2.6,<3
+lightning>=2.5,<3
+torchmetrics>=1.6,<2
+tensorboard>=2.18,<3
+wandb>=0.19,<1
+einops>=0.8,<1
+
+# Module 07: Computer vision
+opencv-python>=4.10,<5
+scikit-image>=0.25,<1
+albumentations>=1.4,<3
+timm>=1.0,<2
+ultralytics>=8.3,<9
+Pillow>=11.0
+
+# Module 08: Natural language processing
+transformers>=4.48,<6
+datasets>=3.2,<5
+tokenizers>=0.21,<1
+huggingface-hub>=0.27,<2
+accelerate>=1.2,<2
+evaluate>=0.4,<1
+sentencepiece>=0.2,<1
+sentence-transformers>=3.3,<6
+peft>=0.14,<1
+trl>=0.13,<1
+sacrebleu>=2.4,<3
+seqeval>=1.2,<2
+nltk>=3.9,<4
+spacy>=3.8,<4
+tiktoken>=0.8,<1
+
+# Module 09: Generative AI
+diffusers>=0.32,<1
+safetensors>=0.4,<1
+# QLoRA support on CUDA-enabled systems:
+# bitsandbytes>=0.45,<1
+
+# Module 10: Graphs, retrieval, agents, and reinforcement learning
+torch-geometric>=2.6,<3
+networkx>=3.4,<4
+gymnasium>=1.0,<2
+trimesh>=4.5,<5
+langchain>=0.3,<2
+langgraph>=0.2,<2
+faiss-cpu>=1.9,<2
+rank-bm25>=0.2,<1
+pypdf>=5.1,<7
+
+# Deployment and experiment tracking
+onnx>=1.17,<2
+onnxruntime>=1.20,<2
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+python-multipart>=0.0.18,<1
+gradio>=5.9,<7
+streamlit>=1.41,<2
+mlflow>=2.19,<4
+
+# Notebooks and developer tooling
+jupyterlab>=4.3,<6
+ipykernel>=6.29,<8
+ipywidgets>=8.1,<9
+nbformat>=5.10,<7
+tqdm>=4.67,<5
+pytest>=8.3,<9
+pytest-cov>=6.0,<8
+hypothesis>=6.122,<7
+ruff>=0.8,<1
+mypy>=1.13,<2
+pre-commit>=4.0,<5

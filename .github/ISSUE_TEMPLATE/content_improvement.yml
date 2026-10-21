@@ -1,0 +1,57 @@
+name: Content improvement
+description: Propose a clearer explanation, exercise, project, or reference.
+title: "[Content]: "
+labels: ["documentation", "enhancement"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of the curriculum should change?
+      options:
+        - Module 01 - Python Fundamentals
+        - Module 02 - Mathematics for Machine Learning
+        - Module 03 - Probability and Statistics
+        - Module 04 - Classical Machine Learning
+        - Module 05 - Deep Learning Foundations
+        - Module 06 - Deep Learning for Multi-Modal Data
+        - Module 07 - Computer Vision
+        - Module 08 - Advanced Architectures and NLP
+        - Module 09 - Generative AI
+        - Module 10 - Advanced AI and LLMs
+        - Documentation and templates
+        - Tooling and repository structure
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current state
+      description: What is unclear, missing, outdated, or unnecessarily complex?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the change and why it improves the learning experience.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Link to papers, documentation, books, or examples that support the proposal.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: The proposal is written in English.
+          required: true
+        - label: The proposal avoids private course material and personal information.
+          required: true
+        - label: I checked that this improvement is not already covered by an existing issue.
+          required: true

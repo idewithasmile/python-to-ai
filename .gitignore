@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.virtual_documents/
+jupyter_execute/
+
+# Machine learning artifacts
+models/
+checkpoints/
+runs/
+outputs/
+artifacts/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.bin
+*.h5
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.parquet
+*.arrow
+*.sqlite
+*.db
+
+# Local datasets and caches
+data/*
+!data/README.md
+datasets/
+hf_cache/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Archives and large media
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+*.flac
+*.mp3
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs, temporary files, and local agent state
+*.log
+tmp/
+.tmp/
+site/
+.agent_state/

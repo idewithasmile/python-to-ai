@@ -1,0 +1,68 @@
+name: Learning question
+description: Ask a focused question about a concept, exercise, or reproducible error.
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: dropdown
+    id: module
+    attributes:
+      label: Module
+      options:
+        - Module 01 - Python Fundamentals
+        - Module 02 - Mathematics for Machine Learning
+        - Module 03 - Probability and Statistics
+        - Module 04 - Classical Machine Learning
+        - Module 05 - Deep Learning Foundations
+        - Module 06 - Deep Learning for Multi-Modal Data
+        - Module 07 - Computer Vision
+        - Module 08 - Advanced Architectures and NLP
+        - Module 09 - Generative AI
+        - Module 10 - Advanced AI and LLMs
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What are you trying to understand or accomplish?
+    validations:
+      required: true
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What have you tried?
+      description: Include the relevant code, notebook cell, or derivation.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Actual result
+      description: Include the error, unexpected output, or point of confusion.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: What did you expect, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Links to the lesson, screenshots without personal data, or environment details.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched the lesson, documentation, and existing issues first.
+          required: true
+        - label: I removed secrets, credentials, and personal data.
+          required: true
