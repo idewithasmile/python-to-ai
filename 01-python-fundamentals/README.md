@@ -2,7 +2,7 @@
 
 [Back to the master roadmap](../README.md) · [Environment setup](../docs/setup.md)
 
-**Weeks 1–4 · November 2–29, 2026 · Status: Planned**
+**Weeks 1–4 · November 2–29, 2026 · Status: In progress**
 
 ## Overview
 
@@ -29,6 +29,12 @@ By the end of this module, you should be able to:
 | 02 | Nov 9–15, 2026 | Lists, dictionaries, sets, tuples, comprehensions, iterators, files, and exceptions | Data-structure lab |
 | 03 | Nov 16–22, 2026 | OOP, dataclasses, typing, recursion, two pointers, testing, and debugging | Tested OOP mini-library |
 | 04 | Nov 23–29, 2026 | pandas, APIs, web parsing, dynamic programming, and CLI design | Python Data Toolkit milestone |
+
+## Published Sessions
+
+| Date | Topic | Materials |
+| :--- | :--- | :--- |
+| 2026-10-21 | Basic Python (Part 1) | [Study guide and notebooks](2026-10-21-basic-python-part-1/) |
 
 ## Milestone Project: Python Data Toolkit
 
@@ -57,6 +63,10 @@ Build a command-line application that ingests data from a CSV file and a public 
 
 ```text
 01-python-fundamentals/
+├── 2026-10-21-basic-python-part-1/
+│   ├── assets/
+│   ├── notebooks/
+│   └── README.md
 ├── notebooks/
 │   ├── 01-python-basics.ipynb
 │   ├── 02-data-structures.ipynb

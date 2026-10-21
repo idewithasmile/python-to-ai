@@ -57,6 +57,10 @@ The dates below are review checkpoints, not a race. If a week slips, use the nex
 
 **Weeks 1–4 · November 2–29, 2026 · Milestone: Python Data Toolkit**
 
+**Published sessions**
+
+- [x] **2026-10-21 · Basic Python (Part 1)** — [study guide and notebooks](01-python-fundamentals/2026-10-21-basic-python-part-1/)
+
 - [ ] **Module complete** — all weekly labs and the milestone are finished.
 - [ ] **Week 01** · Nov 2–8, 2026 — Environment setup, Python syntax, control flow, functions, and Big-O. *Output:* verified environment and algorithm exercises.
 - [ ] **Week 02** · Nov 9–15, 2026 — Lists, dictionaries, sets, tuples, comprehensions, iterators, files, and exceptions. *Output:* data-structure lab.
