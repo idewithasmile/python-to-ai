@@ -53,8 +53,8 @@ tensorboard/
 *.db
 
 # Local datasets and caches
-data/*
-!data/README.md
+/data/*
+!/data/README.md
 datasets/
 hf_cache/
 .cache/

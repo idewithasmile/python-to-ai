@@ -35,6 +35,7 @@ By the end of this module, you should be able to:
 | Date | Topic | Materials |
 | :--- | :--- | :--- |
 | 2026-10-21 | Basic Python (Part 1) | [Study guide and notebooks](2026-10-21-basic-python-part-1/) |
+| 2026-10-22 | Basic Python (Part 2) | [Study guide and notebooks](2026-10-22-basic-python-part-2/) |
 
 ## Milestone Project: Python Data Toolkit
 
@@ -65,6 +66,10 @@ Build a command-line application that ingests data from a CSV file and a public 
 01-python-fundamentals/
 ├── 2026-10-21-basic-python-part-1/
 │   ├── assets/
+│   ├── notebooks/
+│   └── README.md
+├── 2026-10-22-basic-python-part-2/
+│   ├── data/
 │   ├── notebooks/
 │   └── README.md
 ├── notebooks/

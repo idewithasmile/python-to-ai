@@ -21,7 +21,9 @@ data/
 └── samples/      # Tiny redistributable examples
 ```
 
-The `data/*` rule in `.gitignore` ignores everything except this README. Create the subdirectories locally as needed.
+The `/data/*` rule in `.gitignore` ignores everything in this root directory except this README. Create the subdirectories locally as needed.
+
+Session-level `data/` directories are a separate case. They may be committed when they contain only tiny, documented, redistributable samples that the notebooks need in order to run offline. Large or licensed datasets still belong in this root directory, ignored by Git, with a download script or source link in the session README.
 
 ## Dataset Card
 
