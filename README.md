@@ -65,6 +65,8 @@ The dates below are review checkpoints, not a race. If a week slips, use the nex
 
 - [x] **2026-10-23 · Big-O (Time Analysis)** — [study guide and notebooks](01-python-fundamentals/2026-10-23-big-o-time-analysis/)
 
+- [x] **2026-10-24 · Basic Python Practice Lab** — [study guide and notebooks](01-python-fundamentals/2026-10-24-basic-python-practice-lab/)
+
 - [ ] **Module complete** — all weekly labs and the milestone are finished.
 - [ ] **Week 01** · Nov 2–8, 2026 — Environment setup, Python syntax, control flow, functions, and Big-O. *Output:* verified environment and algorithm exercises.
 - [ ] **Week 02** · Nov 9–15, 2026 — Lists, dictionaries, sets, tuples, comprehensions, iterators, files, and exceptions. *Output:* data-structure lab.
