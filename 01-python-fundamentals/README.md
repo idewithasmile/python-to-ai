@@ -39,6 +39,7 @@ By the end of this module, you should be able to:
 | 2026-10-23 | Big-O (Time Analysis) | [Study guide and notebooks](2026-10-23-big-o-time-analysis/) |
 | 2026-10-24 | Basic Python Practice Lab | [Study guide and notebooks](2026-10-24-basic-python-practice-lab/) |
 | 2026-10-25 | Data Structure | [Study guide and notebooks](2026-10-25-data-structure/) |
+| 2026-10-26 | Data Visualization | [Study guide and notebooks](2026-10-26-data-visualization/) |
 
 ## Milestone Project: Python Data Toolkit
 
@@ -82,6 +83,10 @@ Build a command-line application that ingests data from a CSV file and a public 
 │   ├── notebooks/
 │   └── README.md
 ├── 2026-10-25-data-structure/
+│   ├── data/
+│   ├── notebooks/
+│   └── README.md
+├── 2026-10-26-data-visualization/
 │   ├── data/
 │   ├── notebooks/
 │   └── README.md

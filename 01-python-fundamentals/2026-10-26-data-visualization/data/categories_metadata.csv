@@ -1,0 +1,12 @@
+category,department,tax_rate,storage_type
+Beverages,Liquid Grocery,0.05,Ambient/Chilled
+Dairy,Refrigerated Goods,0.0,Chilled
+Bakery,Fresh Produce,0.0,Ambient
+Snacks,Dry Grocery,0.08,Ambient
+Grains,Pantry Staples,0.0,Dry Storage
+Oils,Pantry Staples,0.05,Ambient
+PlantProtein,Refrigerated Goods,0.0,Chilled
+Cereals,Breakfast Foods,0.05,Ambient
+Spreads,Pantry Staples,0.05,Ambient
+PreparedMeals,Convenience Foods,0.08,Shelf-Stable
+Seafood,Canned Meats,0.0,Dry Storage
