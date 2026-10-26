@@ -135,9 +135,9 @@ To determine the exact total operational cost $T(n)$ of an algorithm, we constru
 #### Example 1: Straight-Line Code
 
 ```python
-number_a = 10                     # Line 1: c1 = 1 assign
-number_b = number_a               # Line 2: c2 = 1 lookup + 1 assign
-total = number_a + number_b       # Line 3: c3 = 2 lookups + 1 add + 1 assign
+number_a = 10  # Line 1: c1 = 1 assign
+number_b = number_a  # Line 2: c2 = 1 lookup + 1 assign
+total = number_a + number_b  # Line 3: c3 = 2 lookups + 1 add + 1 assign
 is_greater = number_a > number_b  # Line 4: c4 = 2 lookups + 1 comp + 1 assign
 ```
 
@@ -151,12 +151,12 @@ is_greater = number_a > number_b  # Line 4: c4 = 2 lookups + 1 comp + 1 assign
 
 ```python
 def find_maximum(a: float, b: float) -> float:
-    number_max = 0.0          # Line 1: c1
-    if a > b:                 # Line 2: c2
-        number_max = a        # Line 3: c3
+    number_max = 0.0  # Line 1: c1
+    if a > b:  # Line 2: c2
+        number_max = a  # Line 3: c3
     else:
-        number_max = b        # Line 4: c4
-    return number_max         # Line 5: c5
+        number_max = b  # Line 4: c4
+    return number_max  # Line 5: c5
 ```
 
 - Function call setup: 1 op.
@@ -696,10 +696,11 @@ To benchmark code empirically in Python:
 ```python
 import time
 
+
 def benchmark(fn, *args, repeat: int = 5) -> float:
     # Warm-up run
     fn(*args)
-    
+
     times = []
     for _ in range(repeat):
         start = time.perf_counter()
