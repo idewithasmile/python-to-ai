@@ -1,0 +1,54 @@
+{
+  "name": "4-City Symmetric TSP Benchmark",
+  "description": "Pairwise symmetric distance matrix for 4 cities from the foundational lecture notes.",
+  "num_cities": 4,
+  "cities": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "distance_matrix": [
+    [
+      0,
+      2,
+      8,
+      5
+    ],
+    [
+      2,
+      0,
+      3,
+      4
+    ],
+    [
+      8,
+      3,
+      0,
+      7
+    ],
+    [
+      5,
+      4,
+      7,
+      0
+    ]
+  ],
+  "optimal_tours": [
+    [
+      "A",
+      "B",
+      "C",
+      "D",
+      "A"
+    ],
+    [
+      "A",
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  ],
+  "optimal_cost": 17
+}
