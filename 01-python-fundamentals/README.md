@@ -42,6 +42,7 @@ By the end of this module, you should be able to:
 | 2026-10-26 | Data Visualization | [Study guide and notebooks](2026-10-26-data-visualization/) |
 | 2026-10-27 | Data Structure | [Study guide and notebooks](2026-10-27-data-structure/) |
 | 2026-10-28 | Brute-force Exhaustive | [Study guide and notebooks](2026-10-28-brute-force-exhaustive/) |
+| 2026-10-29 | Data Structures Practice Lab | [Study guide and notebooks](2026-10-29-data-structures-practice-lab/) |
 
 ## Milestone Project: Python Data Toolkit
 
@@ -97,6 +98,10 @@ Build a command-line application that ingests data from a CSV file and a public 
 │   ├── notebooks/
 │   └── README.md
 ├── 2026-10-28-brute-force-exhaustive/
+│   ├── data/
+│   ├── notebooks/
+│   └── README.md
+├── 2026-10-29-data-structures-practice-lab/
 │   ├── data/
 │   ├── notebooks/
 │   └── README.md
