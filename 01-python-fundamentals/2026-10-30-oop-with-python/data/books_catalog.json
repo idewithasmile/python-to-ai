@@ -1,0 +1,82 @@
+[
+  {
+    "isbn": "978-0134685991",
+    "title": "Effective Java",
+    "author": "Joshua Bloch",
+    "genre": "Computer Science",
+    "price": 47.99,
+    "publication_year": 2018,
+    "pages": 416,
+    "rating": 4.8
+  },
+  {
+    "isbn": "978-0132350884",
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "author": "Robert C. Martin",
+    "genre": "Software Engineering",
+    "price": 42.50,
+    "publication_year": 2008,
+    "pages": 464,
+    "rating": 4.7
+  },
+  {
+    "isbn": "978-0201633610",
+    "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "genre": "Software Engineering",
+    "price": 54.95,
+    "publication_year": 1994,
+    "pages": 395,
+    "rating": 4.6
+  },
+  {
+    "isbn": "978-1491957660",
+    "title": "Fluent Python: Clear, Concise, and Effective Programming",
+    "author": "Luciano Ramalho",
+    "genre": "Programming Languages",
+    "price": 59.99,
+    "publication_year": 2022,
+    "pages": 1014,
+    "rating": 4.9
+  },
+  {
+    "isbn": "978-0262033848",
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+    "genre": "Algorithms",
+    "price": 89.00,
+    "publication_year": 2009,
+    "pages": 1312,
+    "rating": 4.7
+  },
+  {
+    "isbn": "978-0262035613",
+    "title": "Deep Learning",
+    "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+    "genre": "Artificial Intelligence",
+    "price": 72.00,
+    "publication_year": 2016,
+    "pages": 800,
+    "rating": 4.6
+  },
+  {
+    "isbn": "978-1492032649",
+    "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+    "author": "Aurélien Géron",
+    "genre": "Machine Learning",
+    "price": 56.50,
+    "publication_year": 2022,
+    "pages": 856,
+    "rating": 4.9
+  },
+  {
+    "isbn": "978-0596517748",
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "genre": "Programming Languages",
+    "price": 29.99,
+    "publication_year": 2008,
+    "pages": 176,
+    "rating": 4.3
+  }
+]

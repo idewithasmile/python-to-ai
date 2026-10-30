@@ -1,0 +1,113 @@
+{
+  "company_name": "Nexus AI Systems",
+  "headquarters": "San Francisco, CA",
+  "founded_year": 2021,
+  "departments": [
+    {
+      "department_name": "Engineering",
+      "teams": [
+        {
+          "team_id": "T01",
+          "team_name": "Core Algorithms",
+          "mission": "Develop distributed graph and optimization primitives",
+          "members": [
+            {
+              "employee_id": "EMP-101",
+              "name": "Sarah Connor",
+              "role": "Staff Research Engineer",
+              "email": "sarah.connor@nexus.ai",
+              "birth_date": {
+                "day": 14,
+                "month": 7,
+                "year": 1988
+              },
+              "salary": {
+                "base_monthly": 12500.0,
+                "annual_bonus": 25000.0
+              }
+            },
+            {
+              "employee_id": "EMP-102",
+              "name": "Alex Murphy",
+              "role": "Senior Systems Engineer",
+              "email": "alex.murphy@nexus.ai",
+              "birth_date": {
+                "day": 22,
+                "month": 3,
+                "year": 1991
+              },
+              "salary": {
+                "base_monthly": 10500.0,
+                "annual_bonus": 18000.0
+              }
+            }
+          ]
+        },
+        {
+          "team_id": "T02",
+          "team_name": "Platform Infrastructure",
+          "mission": "Maintain high-throughput inference serving pipelines",
+          "members": [
+            {
+              "employee_id": "EMP-103",
+              "name": "Ellen Ripley",
+              "role": "Principal Infrastructure Architect",
+              "email": "ellen.ripley@nexus.ai",
+              "birth_date": {
+                "day": 7,
+                "month": 1,
+                "year": 1985
+              },
+              "salary": {
+                "base_monthly": 14000.0,
+                "annual_bonus": 32000.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "department_name": "Applied Science",
+      "teams": [
+        {
+          "team_id": "T03",
+          "team_name": "Computer Vision",
+          "mission": "Train real-time perception and tracking models",
+          "members": [
+            {
+              "employee_id": "EMP-104",
+              "name": "Deckard Shaw",
+              "role": "Lead Vision Scientist",
+              "email": "deckard.shaw@nexus.ai",
+              "birth_date": {
+                "day": 19,
+                "month": 11,
+                "year": 1989
+              },
+              "salary": {
+                "base_monthly": 11800.0,
+                "annual_bonus": 22000.0
+              }
+            },
+            {
+              "employee_id": "EMP-101",
+              "name": "Sarah Connor",
+              "role": "Cross-Functional Researcher",
+              "email": "sarah.connor@nexus.ai",
+              "birth_date": {
+                "day": 14,
+                "month": 7,
+                "year": 1988
+              },
+              "salary": {
+                "base_monthly": 12500.0,
+                "annual_bonus": 25000.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
