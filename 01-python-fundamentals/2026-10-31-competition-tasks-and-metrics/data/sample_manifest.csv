@@ -1,0 +1,7 @@
+image_id,filename,class_name,label_id,split
+img_c1,sample_images/cat_01.png,cat,0,train
+img_c2,sample_images/cat_02.png,cat,0,train
+img_c3,sample_images/cat_03.png,cat,0,val
+img_d1,sample_images/dog_01.png,dog,1,train
+img_d2,sample_images/dog_02.png,dog,1,val
+img_d3,sample_images/dog_03.png,dog,1,test

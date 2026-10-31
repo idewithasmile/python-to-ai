@@ -44,6 +44,7 @@ By the end of this module, you should be able to:
 | 2026-10-28 | Brute-force Exhaustive | [Study guide and notebooks](2026-10-28-brute-force-exhaustive/) |
 | 2026-10-29 | Data Structures Practice Lab | [Study guide and notebooks](2026-10-29-data-structures-practice-lab/) |
 | 2026-10-30 | OOP with Python | [Study guide and notebooks](2026-10-30-oop-with-python/) |
+| 2026-10-31 | Competition tasks and metrics | [Study guide and notebooks](2026-10-31-competition-tasks-and-metrics/) |
 
 ## Milestone Project: Python Data Toolkit
 
@@ -107,6 +108,10 @@ Build a command-line application that ingests data from a CSV file and a public 
 │   ├── notebooks/
 │   └── README.md
 ├── 2026-10-30-oop-with-python/
+│   ├── data/
+│   ├── notebooks/
+│   └── README.md
+├── 2026-10-31-competition-tasks-and-metrics/
 │   ├── data/
 │   ├── notebooks/
 │   └── README.md

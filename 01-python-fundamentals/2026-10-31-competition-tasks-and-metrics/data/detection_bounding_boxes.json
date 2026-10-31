@@ -1,0 +1,234 @@
+{
+  "description": "Benchmark object detection coordinates for IoU, precision-recall curve, and Average Precision analysis.",
+  "coordinate_format": "Pascal VOC [xmin, ymin, xmax, ymax]",
+  "images": [
+    {
+      "image_id": "img_001",
+      "image_dimensions": [
+        640,
+        480
+      ],
+      "ground_truth": [
+        {
+          "category": "cat",
+          "box": [
+            50,
+            60,
+            200,
+            250
+          ]
+        },
+        {
+          "category": "dog",
+          "box": [
+            300,
+            120,
+            520,
+            400
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "category": "cat",
+          "box": [
+            55,
+            65,
+            195,
+            245
+          ],
+          "confidence": 0.94
+        },
+        {
+          "category": "dog",
+          "box": [
+            290,
+            110,
+            510,
+            390
+          ],
+          "confidence": 0.88
+        },
+        {
+          "category": "cat",
+          "box": [
+            20,
+            30,
+            140,
+            160
+          ],
+          "confidence": 0.45
+        }
+      ]
+    },
+    {
+      "image_id": "img_002",
+      "image_dimensions": [
+        640,
+        480
+      ],
+      "ground_truth": [
+        {
+          "category": "cat",
+          "box": [
+            120,
+            80,
+            280,
+            320
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "category": "cat",
+          "box": [
+            125,
+            85,
+            275,
+            315
+          ],
+          "confidence": 0.91
+        },
+        {
+          "category": "dog",
+          "box": [
+            400,
+            200,
+            550,
+            380
+          ],
+          "confidence": 0.52
+        }
+      ]
+    },
+    {
+      "image_id": "img_003",
+      "image_dimensions": [
+        800,
+        600
+      ],
+      "ground_truth": [
+        {
+          "category": "dog",
+          "box": [
+            150,
+            100,
+            450,
+            500
+          ]
+        },
+        {
+          "category": "dog",
+          "box": [
+            500,
+            200,
+            720,
+            520
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "category": "dog",
+          "box": [
+            160,
+            110,
+            440,
+            490
+          ],
+          "confidence": 0.89
+        },
+        {
+          "category": "dog",
+          "box": [
+            510,
+            210,
+            715,
+            510
+          ],
+          "confidence": 0.82
+        },
+        {
+          "category": "dog",
+          "box": [
+            100,
+            80,
+            350,
+            400
+          ],
+          "confidence": 0.38
+        }
+      ]
+    },
+    {
+      "image_id": "img_004",
+      "image_dimensions": [
+        640,
+        480
+      ],
+      "ground_truth": [
+        {
+          "category": "cat",
+          "box": [
+            80,
+            90,
+            260,
+            340
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "category": "cat",
+          "box": [
+            85,
+            95,
+            255,
+            335
+          ],
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "image_id": "img_005",
+      "image_dimensions": [
+        640,
+        480
+      ],
+      "ground_truth": [
+        {
+          "category": "bird",
+          "box": [
+            220,
+            150,
+            380,
+            310
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "category": "bird",
+          "box": [
+            215,
+            145,
+            385,
+            315
+          ],
+          "confidence": 0.92
+        },
+        {
+          "category": "bird",
+          "box": [
+            100,
+            50,
+            200,
+            180
+          ],
+          "confidence": 0.35
+        }
+      ]
+    }
+  ]
+}
