@@ -1,0 +1,70 @@
+{
+  "pipeline_title": "AudioEngineDSP",
+  "version": "2.4.0",
+  "supported_extensions": [
+    ".wav",
+    ".aiff",
+    ".flac",
+    ".mp3",
+    ".ogg"
+  ],
+  "global_audio_specs": {
+    "sample_rate_hz": 44100,
+    "bit_depth": 24,
+    "channels": 2
+  },
+  "dsp_modules": [
+    {
+      "module_name": "audiokit.filters.lowpass",
+      "class_name": "LowPassFilter",
+      "parameters": {
+        "cutoff_frequency_hz": 8000,
+        "resonance": 0.707
+      },
+      "enabled": true
+    },
+    {
+      "module_name": "audiokit.filters.equalizer",
+      "class_name": "ParametricEqualizer",
+      "parameters": {
+        "bands": [
+          {
+            "freq_hz": 120,
+            "gain_db": 3.0,
+            "q": 1.2
+          },
+          {
+            "freq_hz": 2500,
+            "gain_db": -1.5,
+            "q": 0.8
+          },
+          {
+            "freq_hz": 10000,
+            "gain_db": 2.0,
+            "q": 1.0
+          }
+        ]
+      },
+      "enabled": true
+    },
+    {
+      "module_name": "audiokit.effects.reverb",
+      "class_name": "ConvolutionReverb",
+      "parameters": {
+        "wet_dry_mix": 0.35,
+        "decay_time_seconds": 1.8,
+        "pre_delay_ms": 25.0
+      },
+      "enabled": true
+    },
+    {
+      "module_name": "audiokit.effects.spatializer",
+      "class_name": "StereoWidener",
+      "parameters": {
+        "spread_factor": 1.4,
+        "haas_effect_ms": 15.0
+      },
+      "enabled": false
+    }
+  ]
+}

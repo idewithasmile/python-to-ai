@@ -1,0 +1,66 @@
+{
+  "institution": "Institute for Artificial Intelligence & Algorithmic Foundations",
+  "founded_year": 2021,
+  "departments": [
+    "Machine Learning",
+    "Computational Vision",
+    "Autonomous Systems"
+  ],
+  "staff_records": [
+    {
+      "id": "FAC-101",
+      "name": "Dr. Eleanor Vance",
+      "role": "Faculty",
+      "department": "Machine Learning",
+      "base_salary": 9500.0,
+      "bonus_rate": 0.25,
+      "research_focus": "Neural Architecture Search and Representation Learning",
+      "publications": 34,
+      "teaching_load_hours": 6
+    },
+    {
+      "id": "PDC-202",
+      "name": "Dr. Marcus Brody",
+      "role": "PostdoctoralResearcher",
+      "department": "Computational Vision",
+      "base_salary": 6200.0,
+      "bonus_rate": 0.15,
+      "research_focus": "Real-time Object Detection and Semantic Segmentation",
+      "publications": 12,
+      "teaching_load_hours": 2
+    },
+    {
+      "id": "GRA-303",
+      "name": "Sophia Zhang",
+      "role": "GraduateResearcher",
+      "department": "Machine Learning",
+      "base_salary": 3400.0,
+      "bonus_rate": 0.1,
+      "research_focus": "Self-Supervised Representation in Multimodal Foundation Models",
+      "publications": 4,
+      "teaching_load_hours": 10
+    },
+    {
+      "id": "UGA-404",
+      "name": "Julian Rivera",
+      "role": "UndergraduateAssistant",
+      "department": "Autonomous Systems",
+      "base_salary": 1800.0,
+      "bonus_rate": 0.05,
+      "research_focus": "Benchmark Curation and Automated Testing Pipelines",
+      "publications": 1,
+      "teaching_load_hours": 4
+    },
+    {
+      "id": "FAC-105",
+      "name": "Dr. Aris Thorne",
+      "role": "Faculty",
+      "department": "Autonomous Systems",
+      "base_salary": 9800.0,
+      "bonus_rate": 0.28,
+      "research_focus": "Reinforcement Learning for Quadrupedal Robotics",
+      "publications": 41,
+      "teaching_load_hours": 8
+    }
+  ]
+}

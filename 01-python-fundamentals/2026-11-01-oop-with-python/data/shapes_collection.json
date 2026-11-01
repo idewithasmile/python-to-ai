@@ -1,0 +1,80 @@
+[
+  {
+    "id": "SHP-001",
+    "type": "circle",
+    "parameters": {
+      "radius": 5.0
+    },
+    "color": "sapphire",
+    "material_density_g_cm2": 2.7
+  },
+  {
+    "id": "SHP-002",
+    "type": "rectangle",
+    "parameters": {
+      "width": 8.0,
+      "height": 4.5
+    },
+    "color": "crimson",
+    "material_density_g_cm2": 7.85
+  },
+  {
+    "id": "SHP-003",
+    "type": "square",
+    "parameters": {
+      "side": 6.0
+    },
+    "color": "emerald",
+    "material_density_g_cm2": 1.42
+  },
+  {
+    "id": "SHP-004",
+    "type": "triangle",
+    "parameters": {
+      "base": 6.0,
+      "height": 4.0,
+      "side_a": 5.0,
+      "side_b": 5.0,
+      "side_c": 6.0
+    },
+    "color": "amber",
+    "material_density_g_cm2": 0.85
+  },
+  {
+    "id": "SHP-005",
+    "type": "circle",
+    "parameters": {
+      "radius": 3.2
+    },
+    "color": "amethyst",
+    "material_density_g_cm2": 2.7
+  },
+  {
+    "id": "SHP-006",
+    "type": "rectangle",
+    "parameters": {
+      "width": 12.0,
+      "height": 2.5
+    },
+    "color": "obsidian",
+    "material_density_g_cm2": 8.96
+  },
+  {
+    "id": "SHP-007",
+    "type": "square",
+    "parameters": {
+      "side": 4.5
+    },
+    "color": "cobalt",
+    "material_density_g_cm2": 1.42
+  },
+  {
+    "id": "SHP-008",
+    "type": "circle",
+    "parameters": {
+      "radius": 7.5
+    },
+    "color": "topaz",
+    "material_density_g_cm2": 19.32
+  }
+]
