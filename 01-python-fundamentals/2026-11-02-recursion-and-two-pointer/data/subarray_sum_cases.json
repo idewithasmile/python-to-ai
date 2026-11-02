@@ -1,0 +1,123 @@
+[
+  {
+    "id": "case_01_lecture_example",
+    "array": [
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "key": 5,
+    "expected_count": 2,
+    "subarrays": [
+      [
+        2,
+        3
+      ],
+      [
+        5
+      ]
+    ],
+    "description": "Standard lecture example with non-negative numbers"
+  },
+  {
+    "id": "case_02_all_ones",
+    "array": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "key": 2,
+    "expected_count": 3,
+    "subarrays": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "description": "Repeated values testing window contractions"
+  },
+  {
+    "id": "case_03_exact_element",
+    "array": [
+      5,
+      10,
+      15
+    ],
+    "key": 10,
+    "expected_count": 1,
+    "subarrays": [
+      [
+        10
+      ]
+    ],
+    "description": "Single matching element"
+  },
+  {
+    "id": "case_04_no_match",
+    "array": [
+      1,
+      2,
+      4
+    ],
+    "key": 10,
+    "expected_count": 0,
+    "subarrays": [],
+    "description": "Target larger than sum of all elements"
+  },
+  {
+    "id": "case_05_larger_stream",
+    "array": [
+      1,
+      4,
+      20,
+      3,
+      10,
+      5
+    ],
+    "key": 33,
+    "expected_count": 1,
+    "subarrays": [
+      [
+        20,
+        3,
+        10
+      ]
+    ],
+    "description": "Continuous subarray in larger array"
+  },
+  {
+    "id": "case_06_single_element_match",
+    "array": [
+      7
+    ],
+    "key": 7,
+    "expected_count": 1,
+    "subarrays": [
+      [
+        7
+      ]
+    ],
+    "description": "Boundary condition: single-element array matching key"
+  },
+  {
+    "id": "case_07_single_element_mismatch",
+    "array": [
+      7
+    ],
+    "key": 3,
+    "expected_count": 0,
+    "subarrays": [],
+    "description": "Boundary condition: single-element array not matching key"
+  }
+]

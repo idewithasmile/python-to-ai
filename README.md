@@ -83,6 +83,8 @@ The dates below are review checkpoints, not a race. If a week slips, use the nex
 
 - [x] **2026-11-01 · OOP with Python** — [study guide and notebooks](01-python-fundamentals/2026-11-01-oop-with-python/)
 
+- [x] **2026-11-02 · Recursion and Two Pointer** — [study guide and notebooks](01-python-fundamentals/2026-11-02-recursion-and-two-pointer/)
+
 - [ ] **Module complete** — all weekly labs and the milestone are finished.
 - [ ] **Week 01** · Nov 2–8, 2026 — Environment setup, Python syntax, control flow, functions, and Big-O. *Output:* verified environment and algorithm exercises.
 - [ ] **Week 02** · Nov 9–15, 2026 — Lists, dictionaries, sets, tuples, comprehensions, iterators, files, and exceptions. *Output:* data-structure lab.

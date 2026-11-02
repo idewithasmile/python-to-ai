@@ -1,0 +1,50 @@
+[
+  {
+    "target": 1,
+    "closest_n": 1,
+    "word_length": 1,
+    "word_sample": "B",
+    "expected_char": "B",
+    "note": "target=1, F(1)=B"
+  },
+  {
+    "target": 2,
+    "closest_n": 2,
+    "word_length": 2,
+    "word_sample": "BA",
+    "expected_char": "A",
+    "note": "target=2, F(2)=BA, F(2)[1]=A"
+  },
+  {
+    "target": 3,
+    "closest_n": 3,
+    "word_length": 3,
+    "word_sample": "BAB",
+    "expected_char": "B",
+    "note": "target=3, F(3)=BAB, F(3)[2]=B"
+  },
+  {
+    "target": 4,
+    "closest_n": 4,
+    "word_length": 5,
+    "word_sample": "BABBA",
+    "expected_char": "B",
+    "note": "Slide 64 benchmark: target=4 -> n=4, F(4)=BABBA, len=5 >= 4, F(4)[3]=B"
+  },
+  {
+    "target": 5,
+    "closest_n": 4,
+    "word_length": 5,
+    "word_sample": "BABBA",
+    "expected_char": "A",
+    "note": "target=5 -> n=4, F(4)=BABBA, F(4)[4]=A"
+  },
+  {
+    "target": 8,
+    "closest_n": 5,
+    "word_length": 8,
+    "word_sample": "BABBABAB",
+    "expected_char": "B",
+    "note": "target=8 -> n=5, F(5)=BABBABAB, F(5)[7]=B"
+  }
+]
