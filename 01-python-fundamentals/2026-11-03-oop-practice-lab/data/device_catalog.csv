@@ -1,0 +1,8 @@
+device_name,price_usd,manufacturer_id,manufacturer_country
+EdgeNode-X1,1299.99,101,Germany
+QuantumSensor-T4,450.50,102,Japan
+TensorAccelerator-V2,3499.00,103,United States
+SmartGateway-Mini,199.95,101,Germany
+VisionModule-Cam4K,580.00,104,South Korea
+LidarScanner-360,2890.00,102,Japan
+MicroServer-Cluster,4200.50,103,United States

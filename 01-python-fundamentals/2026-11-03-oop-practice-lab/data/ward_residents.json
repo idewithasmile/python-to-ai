@@ -1,0 +1,56 @@
+[
+  {
+    "role": "student",
+    "name": "Alex Chen",
+    "yob": 2005,
+    "grade": "12th Grade"
+  },
+  {
+    "role": "student",
+    "name": "Sophia Patel",
+    "yob": 2006,
+    "grade": "11th Grade"
+  },
+  {
+    "role": "student",
+    "name": "Liam Nguyen",
+    "yob": 2004,
+    "grade": "Undergraduate"
+  },
+  {
+    "role": "teacher",
+    "name": "Dr. Elena Rostova",
+    "yob": 1978,
+    "subject": "Advanced Calculus"
+  },
+  {
+    "role": "teacher",
+    "name": "Marcus Vance",
+    "yob": 1985,
+    "subject": "Computer Science"
+  },
+  {
+    "role": "teacher",
+    "name": "Grace Hopper-Smith",
+    "yob": 1972,
+    "subject": "Linear Algebra"
+  },
+  {
+    "role": "doctor",
+    "name": "Dr. Aris Thorne",
+    "yob": 1980,
+    "specialist": "Cardiology"
+  },
+  {
+    "role": "doctor",
+    "name": "Dr. Maya Lin",
+    "yob": 1988,
+    "specialist": "Neurology"
+  },
+  {
+    "role": "doctor",
+    "name": "Dr. Kenneth Okonjo",
+    "yob": 1975,
+    "specialist": "Pediatrics"
+  }
+]

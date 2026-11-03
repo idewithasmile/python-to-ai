@@ -1,0 +1,65 @@
+[
+  {
+    "task_id": "task-001",
+    "priority": 1,
+    "operation": "matrix_multiply",
+    "tensor_shape": [
+      1024,
+      1024
+    ],
+    "latency_ms": 12.4
+  },
+  {
+    "task_id": "task-002",
+    "priority": 2,
+    "operation": "conv2d_forward",
+    "tensor_shape": [
+      64,
+      3,
+      224,
+      224
+    ],
+    "latency_ms": 34.1
+  },
+  {
+    "task_id": "task-003",
+    "priority": 1,
+    "operation": "layer_norm",
+    "tensor_shape": [
+      64,
+      512
+    ],
+    "latency_ms": 2.3
+  },
+  {
+    "task_id": "task-004",
+    "priority": 3,
+    "operation": "gradient_allreduce",
+    "tensor_shape": [
+      2048,
+      2048
+    ],
+    "latency_ms": 85.6
+  },
+  {
+    "task_id": "task-005",
+    "priority": 2,
+    "operation": "softmax_cross_entropy",
+    "tensor_shape": [
+      64,
+      1000
+    ],
+    "latency_ms": 4.8
+  },
+  {
+    "task_id": "task-006",
+    "priority": 1,
+    "operation": "attention_qkv_proj",
+    "tensor_shape": [
+      32,
+      128,
+      768
+    ],
+    "latency_ms": 18.9
+  }
+]
