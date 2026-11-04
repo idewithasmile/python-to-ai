@@ -100,6 +100,10 @@ The dates below are review checkpoints, not a race. If a week slips, use the nex
 
 **Weeks 5–11 · November 30, 2026–January 17, 2027 · Milestone: Math-for-ML Toolkit**
 
+**Published sessions**
+
+- [x] **2026-11-04 · For, List, and Dictionary** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-04-for-list-and-dictionary/)
+
 - [ ] **Module complete** — all weekly labs and the milestone are finished.
 - [ ] **Week 05** · Nov 30–Dec 6, 2026 — NumPy arrays, broadcasting, vectorization, and numerical stability. *Output:* NumPy warm-up.
 - [ ] **Week 06** · Dec 7–13, 2026 — Derivatives, gradients, the chain rule, and gradient descent from scratch. *Output:* optimization notebook.

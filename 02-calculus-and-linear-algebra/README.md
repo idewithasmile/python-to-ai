@@ -2,7 +2,7 @@
 
 [Back to the master roadmap](../README.md) · [Environment setup](../docs/setup.md)
 
-**Weeks 5–11 · November 30, 2026–January 17, 2027 · Status: Planned**
+**Weeks 5–11 · November 30, 2026–January 17, 2027 · Status: In progress**
 
 ## Overview
 
@@ -34,6 +34,12 @@ By the end of this module, you should be able to:
 | 10 | Jan 4–10, 2027 | Cosine similarity, retrieval, interpolation, upsampling, and edge operators | Retrieval and image-operator lab |
 | 11 | Jan 11–17, 2027 | Integration of regression, SVD, and image operators | Math-for-ML Toolkit milestone |
 
+## Published Sessions
+
+| Date | Topic | Materials |
+| :--- | :--- | :--- |
+| 2026-11-04 | For, List, and Dictionary | [Study guide and notebooks](2026-11-04-for-list-and-dictionary/) |
+
 ## Milestone Project: Math-for-ML Toolkit
 
 Build a small, tested toolkit that demonstrates the mathematical foundations of machine learning in code.
@@ -61,6 +67,10 @@ Build a small, tested toolkit that demonstrates the mathematical foundations of 
 
 ```text
 02-calculus-and-linear-algebra/
+├── 2026-11-04-for-list-and-dictionary/
+│   ├── data/
+│   ├── notebooks/
+│   └── README.md
 ├── notebooks/
 │   ├── 05-numpy-and-vectorization.ipynb
 │   ├── 06-gradients-and-optimization.ipynb

@@ -1,0 +1,60 @@
+{
+  "pi_series": [
+    {
+      "method": "gregory_leibniz",
+      "formula": "4 * sum((-1)**(i+1) / (2*i - 1) for i in 1..n)",
+      "iterations": 1000,
+      "expected_estimate": 3.140592653839794,
+      "true_pi": 3.141592653589793,
+      "absolute_error": 0.0009999997500000845
+    },
+    {
+      "method": "nilakantha",
+      "formula": "3 + 4 * sum((-1)**i / ((2*i+2)*(2*i+3)*(2*i+4)) for i in 0..n-1)",
+      "iterations": 1000,
+      "expected_estimate": 3.141592653340544,
+      "true_pi": 3.141592653589793,
+      "absolute_error": 2.492490514102925e-10
+    }
+  ],
+  "euler_number": [
+    {
+      "method": "limit",
+      "formula": "(1 + 1/n)**n",
+      "n_values": [1, 2, 5, 10, 100, 1000, 10000, 100000],
+      "estimates": [2.0, 2.25, 2.48832, 2.5937424601, 2.704813829421526, 2.716923932235896, 2.718145926825225, 2.7182682371922975],
+      "true_e": 2.718281828459045
+    },
+    {
+      "method": "taylor_series",
+      "formula": "sum(1 / factorial(k) for k in 0..n)",
+      "n": 10,
+      "estimate": 2.7182818011463845,
+      "true_e": 2.718281828459045,
+      "absolute_error": 2.7312660461807636e-08
+    }
+  ],
+  "newton_square_root": [
+    {
+      "number": 9.0,
+      "iterations": 10,
+      "initial_guess": 4.5,
+      "expected_root": 3.0,
+      "iteration_trace": [3.25, 3.0096153846153846, 3.000015360039322, 3.0000000000393214, 3.0]
+    },
+    {
+      "number": 2.0,
+      "iterations": 10,
+      "initial_guess": 1.0,
+      "expected_root": 1.4142135623730951,
+      "iteration_trace": [1.5, 1.4166666666666667, 1.4142156862745099, 1.4142135623746899, 1.4142135623730951]
+    },
+    {
+      "number": 144.0,
+      "iterations": 10,
+      "initial_guess": 72.0,
+      "expected_root": 12.0,
+      "iteration_trace": [37.0, 20.445945945945947, 13.74431871221199, 12.110599119565555, 12.000504780516568, 12.0]
+    }
+  ]
+}

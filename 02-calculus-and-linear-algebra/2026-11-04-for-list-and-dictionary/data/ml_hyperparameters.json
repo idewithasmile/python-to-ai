@@ -1,0 +1,33 @@
+{
+  "experiment_id": "exp_vision_mlp_001",
+  "model": {
+    "architecture": "MultilayerPerceptron",
+    "input_dim": 784,
+    "hidden_dims": [256, 128, 64],
+    "output_dim": 10,
+    "activation": "relu",
+    "dropout_rate": 0.2
+  },
+  "training": {
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "weight_decay": 1e-4,
+    "batch_size": 64,
+    "epochs": 20,
+    "metric": "accuracy",
+    "early_stopping": {
+      "patience": 5,
+      "min_delta": 0.001
+    }
+  },
+  "tuning_grid": {
+    "learning_rate": [0.01, 0.001, 0.0001],
+    "batch_size": [32, 64, 128],
+    "optimizer": ["SGD", "Adam", "AdamW"]
+  },
+  "metrics_log": {
+    "epoch_1": {"train_loss": 0.842, "val_loss": 0.612, "val_accuracy": 0.814},
+    "epoch_2": {"train_loss": 0.521, "val_loss": 0.445, "val_accuracy": 0.867},
+    "epoch_3": {"train_loss": 0.389, "val_loss": 0.358, "val_accuracy": 0.895}
+  }
+}
