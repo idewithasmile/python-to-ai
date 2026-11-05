@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "framework": "Ultralytics YOLOv8",
+    "task": "Object Detection",
+    "dataset_compatibility": "COCO / Custom YOLO format",
+    "input_resolution": [
+      640,
+      640,
+      3
+    ]
+  },
+  "variants": [
+    {
+      "model": "YOLOv8n",
+      "scale": "Nano",
+      "parameters_m": 3.2,
+      "flops_b": 8.7,
+      "map50_95_coco": 37.3,
+      "latency_cpu_ms": 80.4,
+      "latency_gpu_a100_ms": 0.99
+    },
+    {
+      "model": "YOLOv8s",
+      "scale": "Small",
+      "parameters_m": 11.2,
+      "flops_b": 28.6,
+      "map50_95_coco": 44.9,
+      "latency_cpu_ms": 128.4,
+      "latency_gpu_a100_ms": 1.2
+    },
+    {
+      "model": "YOLOv8m",
+      "scale": "Medium",
+      "parameters_m": 25.9,
+      "flops_b": 78.9,
+      "map50_95_coco": 50.2,
+      "latency_cpu_ms": 234.7,
+      "latency_gpu_a100_ms": 1.83
+    },
+    {
+      "model": "YOLOv8l",
+      "scale": "Large",
+      "parameters_m": 43.7,
+      "flops_b": 165.2,
+      "map50_95_coco": 52.9,
+      "latency_cpu_ms": 375.2,
+      "latency_gpu_a100_ms": 2.39
+    },
+    {
+      "model": "YOLOv8x",
+      "scale": "Extra Large",
+      "parameters_m": 68.2,
+      "flops_b": 257.8,
+      "map50_95_coco": 53.9,
+      "latency_cpu_ms": 479.1,
+      "latency_gpu_a100_ms": 3.53
+    }
+  ],
+  "hyperparameter_defaults": {
+    "epochs": 20,
+    "imgsz": 640,
+    "batch": 16,
+    "optimizer": "SGD",
+    "lr0": 0.01,
+    "lrf": 0.01,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 3.0,
+    "box": 7.5,
+    "cls": 0.5,
+    "dfl": 1.5,
+    "mosaic": 1.0,
+    "mixup": 0.0
+  }
+}

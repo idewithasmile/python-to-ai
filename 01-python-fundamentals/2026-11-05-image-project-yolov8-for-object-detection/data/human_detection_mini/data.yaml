@@ -1,0 +1,10 @@
+# Dataset configuration for Human Detection mini-benchmark
+path: ./human_detection_mini
+train: images/train
+val: images/val
+test: ~
+
+# Classes configuration
+nc: 1
+names:
+  0: human

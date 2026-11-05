@@ -1,0 +1,246 @@
+{
+  "evaluation_split": "val",
+  "iou_thresholds": [
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "samples": [
+    {
+      "image_name": "human_val_01.jpg",
+      "dimensions": {
+        "width": 640,
+        "height": 640,
+        "channels": 3
+      },
+      "ground_truths": [
+        {
+          "id": 1,
+          "class_id": 0,
+          "class_name": "human",
+          "bbox_voc": [
+            120,
+            220,
+            240,
+            530
+          ],
+          "bbox_yolo": [
+            0.28125,
+            0.585938,
+            0.1875,
+            0.484375
+          ]
+        },
+        {
+          "id": 2,
+          "class_id": 0,
+          "class_name": "human",
+          "bbox_voc": [
+            360,
+            200,
+            470,
+            520
+          ],
+          "bbox_yolo": [
+            0.648438,
+            0.5625,
+            0.171875,
+            0.5
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "id": 101,
+          "class_id": 0,
+          "class_name": "human",
+          "confidence": 0.942,
+          "bbox_voc": [
+            122,
+            218,
+            238,
+            528
+          ],
+          "iou_with_gt1": 0.947
+        },
+        {
+          "id": 102,
+          "class_id": 0,
+          "class_name": "human",
+          "confidence": 0.915,
+          "bbox_voc": [
+            362,
+            204,
+            468,
+            518
+          ],
+          "iou_with_gt2": 0.939
+        },
+        {
+          "id": 103,
+          "class_id": 0,
+          "class_name": "human",
+          "confidence": 0.312,
+          "bbox_voc": [
+            15,
+            480,
+            80,
+            560
+          ],
+          "iou_max": 0.0
+        }
+      ]
+    },
+    {
+      "image_name": "human_val_02.jpg",
+      "dimensions": {
+        "width": 640,
+        "height": 640,
+        "channels": 3
+      },
+      "ground_truths": [
+        {
+          "id": 3,
+          "class_id": 0,
+          "class_name": "human",
+          "bbox_voc": [
+            240,
+            160,
+            380,
+            520
+          ],
+          "bbox_yolo": [
+            0.484375,
+            0.53125,
+            0.21875,
+            0.5625
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "id": 104,
+          "class_id": 0,
+          "class_name": "human",
+          "confidence": 0.961,
+          "bbox_voc": [
+            242,
+            158,
+            378,
+            522
+          ],
+          "iou_with_gt3": 0.962
+        }
+      ]
+    },
+    {
+      "image_name": "human_val_03.jpg",
+      "dimensions": {
+        "width": 640,
+        "height": 640,
+        "channels": 3
+      },
+      "ground_truths": [
+        {
+          "id": 4,
+          "class_id": 0,
+          "class_name": "human",
+          "bbox_voc": [
+            150,
+            250,
+            240,
+            510
+          ],
+          "bbox_yolo": [
+            0.304688,
+            0.59375,
+            0.140625,
+            0.40625
+          ]
+        },
+        {
+          "id": 5,
+          "class_id": 0,
+          "class_name": "human",
+          "bbox_voc": [
+            300,
+            230,
+            400,
+            515
+          ],
+          "bbox_yolo": [
+            0.546875,
+            0.582031,
+            0.15625,
+            0.445312
+          ]
+        },
+        {
+          "id": 6,
+          "class_id": 0,
+          "class_name": "human",
+          "bbox_voc": [
+            460,
+            240,
+            550,
+            520
+          ],
+          "bbox_yolo": [
+            0.789062,
+            0.59375,
+            0.140625,
+            0.4375
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "id": 105,
+          "class_id": 0,
+          "class_name": "human",
+          "confidence": 0.928,
+          "bbox_voc": [
+            152,
+            248,
+            238,
+            512
+          ],
+          "iou_with_gt4": 0.951
+        },
+        {
+          "id": 106,
+          "class_id": 0,
+          "class_name": "human",
+          "confidence": 0.887,
+          "bbox_voc": [
+            303,
+            232,
+            398,
+            512
+          ],
+          "iou_with_gt5": 0.932
+        },
+        {
+          "id": 107,
+          "class_id": 0,
+          "class_name": "human",
+          "confidence": 0.894,
+          "bbox_voc": [
+            458,
+            242,
+            552,
+            518
+          ],
+          "iou_with_gt6": 0.945
+        }
+      ]
+    }
+  ]
+}

@@ -48,6 +48,7 @@ By the end of this module, you should be able to:
 | 2026-11-01 | OOP with Python | [Study guide and notebooks](2026-11-01-oop-with-python/) |
 | 2026-11-02 | Recursion and Two Pointer | [Study guide and notebooks](2026-11-02-recursion-and-two-pointer/) |
 | 2026-11-03 | OOP Practice Lab | [Study guide and notebooks](2026-11-03-oop-practice-lab/) |
+| 2026-11-05 | Image Project: Yolov8 for Object Detection | [Study guide and notebooks](2026-11-05-image-project-yolov8-for-object-detection/) |
 
 ## Milestone Project: Python Data Toolkit
 
@@ -127,6 +128,10 @@ Build a command-line application that ingests data from a CSV file and a public 
 │   ├── notebooks/
 │   └── README.md
 ├── 2026-11-03-oop-practice-lab/
+│   ├── data/
+│   ├── notebooks/
+│   └── README.md
+├── 2026-11-05-image-project-yolov8-for-object-detection/
 │   ├── data/
 │   ├── notebooks/
 │   └── README.md
