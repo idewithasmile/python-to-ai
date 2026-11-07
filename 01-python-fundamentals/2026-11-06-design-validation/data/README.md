@@ -81,3 +81,4 @@ Synthetic benchmark containing 500 training instances and 500 testing instances 
 - `feature_2` (`float`): Continuous predictor 2.
 - `target` (`int`): Binary ground truth outcome label.
 - `split_origin` (`string`): Ground truth partition assignment (`train` vs. `test`). Used in Adversarial Validation to evaluate if a classifier can distinguish the partition origin.
+

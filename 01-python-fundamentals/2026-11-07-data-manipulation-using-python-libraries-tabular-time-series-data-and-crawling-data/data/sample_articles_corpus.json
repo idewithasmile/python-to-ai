@@ -1,0 +1,57 @@
+[
+  {
+    "id": "article_00001",
+    "url": "https://techherald.example.org/articles/modern-data-pipelines-ai-architecture",
+    "category": "technology",
+    "title": "Scalable Data Manipulation Architectures for Enterprise Machine Learning",
+    "abstract": "Modern machine learning systems depend heavily on high-throughput data extraction and transformation pipelines capable of handling both tabular records and semi-structured web corpora.",
+    "body": "In real-world data engineering, machine learning practitioners face diverse data ingestion modalities ranging from columnar SQL databases to real-time event logs and uncurated web scrapers. Building deterministic, reproducible data manipulation pipelines requires adhering to strict mathematical primitives, avoiding temporal lookahead bias in time-series features, and implementing structured exception handling. Furthermore, transitioning from prototyping with pure Python collections to vectorized DataFrame operations enables orders-of-magnitude acceleration in analytical workflows.",
+    "author": "Elena Rostova",
+    "published_at": "2026-11-01T08:30:00Z",
+    "thumbnail_url": "https://images.example.org/thumbnails/thumb_00001.png"
+  },
+  {
+    "id": "article_00002",
+    "url": "https://techherald.example.org/articles/time-series-forecasting-distributed-systems",
+    "category": "distributed-systems",
+    "title": "Telemetry Aggregation and Temporal Feature Engineering in Distributed Clouds",
+    "abstract": "Analyzing high-velocity sensor telemetry requires robust resampling strategies, rolling window calculations, and strict causality constraints to prevent data leakage in forecasting models.",
+    "body": "Cloud infrastructure observability platforms continuously collect billions of metric points including CPU saturation, memory footprints, and network packet latencies. When transforming raw temporal observations into training matrices for anomaly detection models, engineers must maintain strict temporal partitions. Forward-filling missing metrics simulates realistic runtime states, whereas backward-filling leaks future information into past horizons, corrupting validation integrity.",
+    "author": "Marcus Vance",
+    "published_at": "2026-11-02T10:15:00Z",
+    "thumbnail_url": "https://images.example.org/thumbnails/thumb_00002.png"
+  },
+  {
+    "id": "article_00003",
+    "url": "https://techherald.example.org/articles/nlp-vocabulary-tokenization-foundations",
+    "category": "natural-language-processing",
+    "title": "Text Normalization and Index-Based Tokenization Pipelines from First Principles",
+    "abstract": "Transforming unstructured natural language strings into numerical tensor inputs requires systematic lowercasing, punctuation stripping, vocabulary compilation, and index mapping.",
+    "body": "Before any transformer or recurrent neural network can compute hidden representations, text documents must undergo rigorous normalization. Removing typographical noise, collapsing irregular whitespace, and handling punctuation tokens ensures vocabulary compactness. Constructing an index-based vocabulary mapping associates each unique token with an integer identifier, reserving designated special tokens for padding and out-of-vocabulary fallback handling.",
+    "author": "Amina Chen",
+    "published_at": "2026-11-03T14:45:00Z",
+    "thumbnail_url": "https://images.example.org/thumbnails/thumb_00003.png"
+  },
+  {
+    "id": "article_00004",
+    "url": "https://techherald.example.org/articles/ethical-web-crawling-production-practices",
+    "category": "web-scraping",
+    "title": "Architecting Resilient Web Scraping Harvesters with Rate Limiting and Error Recovery",
+    "abstract": "Automated data collection from the open web requires respectful etiquette, polite rate limiting, DOM traversal, and transactional error recovery mechanisms.",
+    "body": "Web scraping remains an indispensable tool for harvesting multimodal training corpora when public datasets are unavailable. Robust harvesters combine headless browser drivers with low-latency HTTP request engines, parsing HTML DOM hierarchies using XPath and CSS selectors. Respecting robots.txt exclusion directives, injecting random jitter into request intervals, and persisting downloaded assets with atomic file writes prevent network blocking and corrupted datasets.",
+    "author": "Devon Hughes",
+    "published_at": "2026-11-04T09:20:00Z",
+    "thumbnail_url": "https://images.example.org/thumbnails/thumb_00004.png"
+  },
+  {
+    "id": "article_00005",
+    "url": "https://techherald.example.org/articles/multimodal-asset-ingestion-computer-vision",
+    "category": "computer-vision",
+    "title": "Binary Asset Extraction and Color Mode Normalization for Image Pipelines",
+    "abstract": "Curating computer vision datasets from scraped media requires downloading binary streams, validating file signatures, and converting disparate palette color spaces to standardized RGB tensors.",
+    "body": "Scraped images on the web exhibit wide variances in encoding formats, metadata headers, and color spaces, including palletized (P-mode), CMYK, and transparent RGBA formats. Computer vision models require consistent 3-channel RGB inputs. Ingestion pipelines must validate byte signatures, sanitize corrupted streams with image decoders, and systematically convert non-RGB images before saving to disk and packaging for training.",
+    "author": "Siddharth Rao",
+    "published_at": "2026-11-05T16:00:00Z",
+    "thumbnail_url": "https://images.example.org/thumbnails/thumb_00005.png"
+  }
+]
