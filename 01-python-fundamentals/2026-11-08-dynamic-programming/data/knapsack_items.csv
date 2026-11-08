@@ -1,0 +1,11 @@
+item_id,feature_name,memory_cost_kb,utility_score
+1,user_demographics,12,35
+2,device_telemetry,8,20
+3,historical_ctr_30d,25,65
+4,text_embedding_384d,48,95
+5,session_recency_decay,6,22
+6,ip_geolocation_latlon,15,30
+7,graph_pagerank_centrality,32,70
+8,cross_feature_interactions,40,85
+9,realtime_dwell_time,10,28
+10,latent_cluster_id,18,42

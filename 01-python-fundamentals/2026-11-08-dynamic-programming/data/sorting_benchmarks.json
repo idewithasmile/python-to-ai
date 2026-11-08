@@ -1,0 +1,92 @@
+{
+  "lecture_example": {
+    "array": [
+      7,
+      2,
+      5,
+      30,
+      16,
+      8,
+      4,
+      17
+    ],
+    "description": "Primary sequence analyzed step-by-step in lecture slides"
+  },
+  "already_sorted": {
+    "array": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ],
+    "description": "Monotonically increasing sequence; tests best/worst case partition behavior"
+  },
+  "reverse_sorted": {
+    "array": [
+      20,
+      18,
+      15,
+      12,
+      10,
+      8,
+      5,
+      2
+    ],
+    "description": "Strictly decreasing sequence; triggers worst-case O(n^2) for fixed-end pivot quicksort"
+  },
+  "duplicates_heavy": {
+    "array": [
+      4,
+      2,
+      4,
+      3,
+      2,
+      4,
+      1,
+      3,
+      2,
+      1,
+      4
+    ],
+    "description": "Array with dense repeated elements to test partitioning stability and equal keys"
+  },
+  "single_element": {
+    "array": [
+      42
+    ],
+    "description": "Base case verification: array of length 1"
+  },
+  "empty_array": {
+    "array": [],
+    "description": "Base case verification: empty array"
+  },
+  "random_integers": {
+    "array": [
+      64,
+      34,
+      25,
+      12,
+      22,
+      11,
+      90,
+      88,
+      76,
+      54,
+      43,
+      31,
+      99,
+      10,
+      15,
+      28,
+      45,
+      67,
+      82,
+      3
+    ],
+    "description": "Pseudorandom integer sequence for empirical runtime verification"
+  }
+}

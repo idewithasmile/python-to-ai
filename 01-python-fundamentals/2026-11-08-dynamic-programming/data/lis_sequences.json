@@ -1,0 +1,116 @@
+{
+  "lecture_example": {
+    "nums": [
+      3,
+      10,
+      2,
+      1,
+      20
+    ],
+    "expected_length": 3,
+    "example_subsequence": [
+      3,
+      10,
+      20
+    ],
+    "description": "Primary LIS walkthrough from lecture slides"
+  },
+  "standard_increasing": {
+    "nums": [
+      10,
+      22,
+      9,
+      33,
+      21,
+      50,
+      41,
+      60,
+      80
+    ],
+    "expected_length": 6,
+    "example_subsequence": [
+      10,
+      22,
+      33,
+      50,
+      60,
+      80
+    ],
+    "description": "Benchmark sequence commonly evaluated in algorithm textbooks"
+  },
+  "strictly_decreasing": {
+    "nums": [
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "expected_length": 1,
+    "example_subsequence": [
+      9
+    ],
+    "description": "Strictly descending sequence where every element forms an LIS of length 1"
+  },
+  "all_identical": {
+    "nums": [
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "expected_length": 1,
+    "example_subsequence": [
+      7
+    ],
+    "description": "Strict inequality constraint check: identical values cannot extend strictly increasing sequence"
+  },
+  "alternating_wave": {
+    "nums": [
+      1,
+      5,
+      2,
+      6,
+      3,
+      7,
+      4,
+      8
+    ],
+    "expected_length": 5,
+    "example_subsequence": [
+      1,
+      2,
+      3,
+      4,
+      8
+    ],
+    "description": "Oscillating sequence with multiple interleaved candidate branches"
+  },
+  "stock_price_trend": {
+    "nums": [
+      100,
+      105,
+      102,
+      110,
+      108,
+      120,
+      115,
+      130
+    ],
+    "expected_length": 6,
+    "example_subsequence": [
+      100,
+      105,
+      110,
+      115,
+      120,
+      130
+    ],
+    "description": "Financial time-series closing prices showing upward underlying momentum"
+  }
+}
