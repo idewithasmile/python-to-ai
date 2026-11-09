@@ -95,6 +95,8 @@ The dates below are review checkpoints, not a race. If a week slips, use the nex
 
 - [x] **2026-11-08 · Dynamic Programming** — [study guide and notebooks](01-python-fundamentals/2026-11-08-dynamic-programming/)
 
+- [x] **2026-11-09 · Text Project: ChatGPT-based Application** — [study guide and notebooks](01-python-fundamentals/2026-11-09-text-project-chatgpt-based-application/)
+
 - [ ] **Module complete** — all weekly labs and the milestone are finished.
 - [ ] **Week 01** · Nov 2–8, 2026 — Environment setup, Python syntax, control flow, functions, and Big-O. *Output:* verified environment and algorithm exercises.
 - [ ] **Week 02** · Nov 9–15, 2026 — Lists, dictionaries, sets, tuples, comprehensions, iterators, files, and exceptions. *Output:* data-structure lab.

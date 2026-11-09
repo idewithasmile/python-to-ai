@@ -1,0 +1,72 @@
+[
+  {
+    "id": "aspect-001",
+    "text": "It is very overpriced and not very tasty.",
+    "labels": [
+      "price",
+      "food"
+    ],
+    "aspect_breakdown": {
+      "price": "overpriced",
+      "food": "not very tasty"
+    }
+  },
+  {
+    "id": "aspect-002",
+    "text": "But the staff was so horrible to us.",
+    "labels": [
+      "service"
+    ],
+    "aspect_breakdown": {
+      "service": "horrible staff attitude"
+    }
+  },
+  {
+    "id": "aspect-003",
+    "text": "Each table has a pot of boiling water sunken into its surface and you get platters of thin sliced meats various vegetables and rice and glass noodles.",
+    "labels": [
+      "food",
+      "miscellaneous"
+    ],
+    "aspect_breakdown": {
+      "food": "thin sliced meats, vegetables, rice, glass noodles",
+      "miscellaneous": "table layout with sunken pot"
+    }
+  },
+  {
+    "id": "aspect-004",
+    "text": "The soft jazz music and warm candlelight made our evening romantic, even though the bill was shockingly steep.",
+    "labels": [
+      "ambience",
+      "price"
+    ],
+    "aspect_breakdown": {
+      "ambience": "soft jazz music and candlelight",
+      "price": "shockingly steep bill"
+    }
+  },
+  {
+    "id": "aspect-005",
+    "text": "Waiters refilled our water promptly, the pasta was cooked to perfect al dente, and the atmosphere felt like an authentic Roman trattoria.",
+    "labels": [
+      "service",
+      "food",
+      "ambience"
+    ],
+    "aspect_breakdown": {
+      "service": "prompt water refills",
+      "food": "perfect al dente pasta",
+      "ambience": "authentic Roman trattoria feel"
+    }
+  },
+  {
+    "id": "aspect-006",
+    "text": "The location is easy to reach by subway and there is plenty of bike parking nearby.",
+    "labels": [
+      "miscellaneous"
+    ],
+    "aspect_breakdown": {
+      "miscellaneous": "transit accessibility and bike parking"
+    }
+  }
+]

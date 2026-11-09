@@ -1,0 +1,62 @@
+[
+  {
+    "id": "sent-001",
+    "text": "I think the food was okay.",
+    "label": "neutral",
+    "explanation": "The speaker expresses neither high satisfaction nor explicit displeasure; 'okay' indicates an average, lukewarm appraisal."
+  },
+  {
+    "id": "sent-002",
+    "text": "So bad.",
+    "label": "negative",
+    "explanation": "Clear negative appraisal indicating strong dissatisfaction."
+  },
+  {
+    "id": "sent-003",
+    "text": "I loved this movie!",
+    "label": "positive",
+    "explanation": "Strong positive sentiment conveyed by the verb 'loved'."
+  },
+  {
+    "id": "sent-004",
+    "text": "I don't like it.",
+    "label": "negative",
+    "explanation": "Explicit negative preference."
+  },
+  {
+    "id": "sent-005",
+    "text": "I enjoyed the movie.",
+    "label": "positive",
+    "explanation": "Moderate to strong positive appraisal."
+  },
+  {
+    "id": "sent-006",
+    "text": "My experience so far has been fantastic!",
+    "label": "positive",
+    "explanation": "High enthusiasm and positive appraisal."
+  },
+  {
+    "id": "sent-007",
+    "text": "Your support team is useless.",
+    "label": "negative",
+    "explanation": "Severely negative review criticizing service competency."
+  },
+  {
+    "id": "sent-008",
+    "text": "The product is ok I guess.",
+    "label": "neutral",
+    "explanation": "Qualified neutrality with subtle ambivalence ('ok I guess')."
+  },
+  {
+    "id": "sent-009",
+    "text": "The package arrived on time, but the cardboard box was slightly bent while the item inside was undamaged.",
+    "label": "neutral",
+    "explanation": "Mixed factual observations balancing a positive delivery timeline with superficial packaging damage."
+  },
+  {
+    "id": "sent-010",
+    "text": "Remarkable build quality and swift responsiveness far exceeding my expectations.",
+    "label": "positive",
+    "explanation": "Superlative positive assessment across engineering and performance."
+  }
+]

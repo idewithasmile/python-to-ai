@@ -1,0 +1,48 @@
+[
+  {
+    "id": "qa-001",
+    "type": "closed_domain_biography",
+    "context": "President Ho Chi Minh (born Nguyen Sinh Cung; 19 May 1890 - 2 September 1969) was a Vietnamese revolutionary and statesman who served as Prime Minister of Vietnam from 1945 to 1955 and President from 1945 until 1969. He was born in Hoang Tru village, Kim Lien commune, Nam Dan district, Nghe An province in central Vietnam.",
+    "question": "Where was President Ho Chi Minh born?",
+    "target_answer": "Hoang Tru village, Kim Lien commune, Nam Dan district, Nghe An province in central Vietnam.",
+    "extractive_span": "Hoang Tru village, Kim Lien commune, Nam Dan district, Nghe An province in central Vietnam"
+  },
+  {
+    "id": "qa-002",
+    "type": "closed_domain_literature",
+    "context": "Mercury has awakened Echo, who weeps for Narcissus, and states that a drink from Narcissus's spring causes the drinker to 'grow dotingly enamored of themselves.' Those who partake are paralyzed before their own reflections, transfixed by self-adoration.",
+    "question": "What does a drink from Narcissus's spring cause the drinker to do?",
+    "target_answer": "It causes the drinker to become infatuated and dotingly enamored with their own reflection.",
+    "extractive_span": "grow dotingly enamored of themselves"
+  },
+  {
+    "id": "qa-003",
+    "type": "multiple_choice_science",
+    "context": "Photosynthesis is the biochemical process by which green plants and certain organisms transform light energy into chemical energy, synthesising glucose sugars from water and carbon dioxide while releasing oxygen as a byproduct.",
+    "question": "What does photosynthesis produce that directly stores chemical energy to help plants grow?",
+    "options": {
+      "A": "Water",
+      "B": "Oxygen",
+      "C": "Protein",
+      "D": "Sugar (Glucose)"
+    },
+    "target_answer": "D",
+    "rationale": "Glucose (sugar) is the energy-storing carbohydrate synthesized by plants for growth and metabolism; oxygen is a released byproduct."
+  },
+  {
+    "id": "qa-004",
+    "type": "closed_domain_sports",
+    "context": "Vietnam won 136 gold medals to secure the top spot in the overall medal tally as the 2023 Southeast Asian (SEA) Games in Cambodia concluded on its final official day of competition.",
+    "question": "How many gold medals did Vietnam win in the 2023 SEA Games?",
+    "target_answer": "136 gold medals.",
+    "extractive_span": "136 gold medals"
+  },
+  {
+    "id": "qa-005",
+    "type": "unanswerable_challenge",
+    "context": "The European Space Agency launched the Euclid space telescope in July 2023 to map the geometry of the dark Universe and observe billions of galaxies across 10 billion light-years.",
+    "question": "What was the exact temperature inside the telescope detector during orbit insertion on day 4?",
+    "target_answer": "UNANSWERABLE",
+    "abstention_instruction": "State clearly that the provided context does not contain information regarding internal detector temperatures during day 4."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "code-bug-001",
+    "name": "average_syntax_error",
+    "description": "Missing colon after for loop statement",
+    "buggy_code": "def average(nums):\n    total = 0\n    for num in nums\n        total += num\n    return total / len(nums)",
+    "fixed_code": "def average(nums: list[float]) -> float:\n    \"\"\"Compute the arithmetic mean of a sequence of numbers.\"\"\"\n    if not nums:\n        raise ValueError(\"Cannot compute average of an empty collection.\")\n    return sum(nums) / len(nums)",
+    "test_inputs": [
+      [
+        10,
+        20,
+        30,
+        40
+      ]
+    ],
+    "expected_output": 25.0
+  },
+  {
+    "id": "code-bug-002",
+    "name": "average_operator_error",
+    "description": "Multiplication used instead of division when normalizing sum by length",
+    "buggy_code": "def average(nums):\n    total = 0\n    for num in nums:\n        total += num\n    return total * len(nums)",
+    "fixed_code": "def average(nums: list[float]) -> float:\n    \"\"\"Compute the arithmetic mean of a sequence of numbers.\"\"\"\n    if not nums:\n        raise ValueError(\"Cannot compute average of an empty collection.\")\n    return sum(nums) / len(nums)",
+    "test_inputs": [
+      [
+        2,
+        4,
+        6
+      ]
+    ],
+    "expected_output": 4.0
+  },
+  {
+    "id": "code-bug-003",
+    "name": "palindrome_index_bug",
+    "description": "Off-by-one boundary check and case insensitivity omission",
+    "buggy_code": "def is_palindrome(s):\n    for i in range(len(s)):\n        if s[i] != s[len(s) - i]:\n            return False\n    return True",
+    "fixed_code": "def is_palindrome(s: str) -> bool:\n    \"\"\"Verify whether a string is a palindrome, ignoring non-alphanumeric chars and case.\"\"\"\n    cleaned = [ch.lower() for ch in s if ch.isalnum()]\n    left, right = 0, len(cleaned) - 1\n    while left < right:\n        if cleaned[left] != cleaned[right]:\n            return False\n        left += 1\n        right -= 1\n    return True",
+    "test_inputs": [
+      "RaceCar"
+    ],
+    "expected_output": true
+  }
+]

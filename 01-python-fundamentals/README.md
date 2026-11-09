@@ -52,6 +52,7 @@ By the end of this module, you should be able to:
 | 2026-11-06 | Design Validation | [Study guide and notebooks](2026-11-06-design-validation/) |
 | 2026-11-07 | Data Manipulation using Python Libraries (Tabular, Time-series Data, and Crawling Data) | [Study guide and notebooks](2026-11-07-data-manipulation-using-python-libraries-tabular-time-series-data-and-crawling-data/) |
 | 2026-11-08 | Dynamic Programming | [Study guide and notebooks](2026-11-08-dynamic-programming/) |
+| 2026-11-09 | Text Project: ChatGPT-based Application | [Study guide and notebooks](2026-11-09-text-project-chatgpt-based-application/) |
 
 ## Milestone Project: Python Data Toolkit
 
@@ -147,6 +148,10 @@ Build a command-line application that ingests data from a CSV file and a public 
 │   ├── notebooks/
 │   └── README.md
 ├── 2026-11-08-dynamic-programming/
+│   ├── data/
+│   ├── notebooks/
+│   └── README.md
+├── 2026-11-09-text-project-chatgpt-based-application/
 │   ├── data/
 │   ├── notebooks/
 │   └── README.md

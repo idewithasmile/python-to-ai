@@ -1,0 +1,55 @@
+[
+  {
+    "id": "reason-001",
+    "type": "arithmetic_multiplication",
+    "prompt": "What is 9,000 * 9,000?",
+    "direct_answer": "81,000,000",
+    "cot_steps": [
+      "Decompose 9,000 into 9 * 1,000.",
+      "Compute 9 * 9 = 81.",
+      "Multiply the powers of ten: 1,000 * 1,000 = 1,000,000 (10^3 * 10^3 = 10^6).",
+      "Combine terms: 81 * 1,000,000 = 81,000,000."
+    ],
+    "expected_result": 81000000
+  },
+  {
+    "id": "reason-002",
+    "type": "odd_sum_parity",
+    "prompt": "Do the odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1?",
+    "direct_failure_mode": "Language models without scratchpads frequently guess 'yes, adds to 106' or make parity hallucinations.",
+    "cot_steps": [
+      "Filter the list for odd integers: 15 (odd), 32 (even, discard), 5 (odd), 13 (odd), 82 (even, discard), 7 (odd), 1 (odd).",
+      "List of odd integers: [15, 5, 13, 7, 1].",
+      "Count of odd integers: 5 odd integers.",
+      "Mathematical theorem: The sum of an odd number of odd integers is always odd (odd * odd = odd).",
+      "Compute exact sum: 15 + 5 = 20; 20 + 13 = 33; 33 + 7 = 40; 40 + 1 = 41.",
+      "Evaluate parity of 41: 41 % 2 = 1 (Odd).",
+      "Conclusion: No, the odd numbers add up to 41, which is odd, not even."
+    ],
+    "expected_result": "No, the sum is 41 which is odd."
+  },
+  {
+    "id": "reason-003",
+    "type": "letter_counting_tokenization_trap",
+    "prompt": "Count the number of letters 's' that appear last in each word of the following sentence: 'She sells seashells by the seashore, the shells she sells are surely seashells.'",
+    "cot_steps": [
+      "Tokenize the sentence into clean words: ['She', 'sells', 'seashells', 'by', 'the', 'seashore', 'the', 'shells', 'she', 'sells', 'are', 'surely', 'seashells'].",
+      "Inspect the terminal character of each word:",
+      "  1. 'She' -> 'e' (No)",
+      "  2. 'sells' -> 's' (Match 1)",
+      "  3. 'seashells' -> 's' (Match 2)",
+      "  4. 'by' -> 'y' (No)",
+      "  5. 'the' -> 'e' (No)",
+      "  6. 'seashore' -> 'e' (No)",
+      "  7. 'the' -> 'e' (No)",
+      "  8. 'shells' -> 's' (Match 3)",
+      "  9. 'she' -> 'e' (No)",
+      "  10. 'sells' -> 's' (Match 4)",
+      "  11. 'are' -> 'e' (No)",
+      "  12. 'surely' -> 'y' (No)",
+      "  13. 'seashells' -> 's' (Match 5)",
+      "Total matching words ending with 's': 5."
+    ],
+    "expected_result": 5
+  }
+]

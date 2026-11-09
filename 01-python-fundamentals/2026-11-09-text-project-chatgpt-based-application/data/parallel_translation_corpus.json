@@ -1,0 +1,50 @@
+[
+  {
+    "id": "trans-001",
+    "source_lang": "vi",
+    "target_lang": "en",
+    "source_text": "Tôi đang học trí tuệ nhân tạo và xử lý ngôn ngữ tự nhiên.",
+    "reference_translation": "I am studying artificial intelligence and natural language processing.",
+    "domain": "academic"
+  },
+  {
+    "id": "trans-002",
+    "source_lang": "vi",
+    "target_lang": "en",
+    "source_text": "Trường học.",
+    "reference_translation": "School.",
+    "domain": "vocabulary"
+  },
+  {
+    "id": "trans-003",
+    "source_lang": "vi",
+    "target_lang": "en",
+    "source_text": "Tôi thích nó.",
+    "reference_translation": "I like it.",
+    "domain": "conversational"
+  },
+  {
+    "id": "trans-004",
+    "source_lang": "vi",
+    "target_lang": "en",
+    "source_text": "Kỹ thuật gợi ý lệnh đóng vai trò thiết yếu trong việc tối ưu hóa hiệu năng của các mô hình ngôn ngữ lớn.",
+    "reference_translation": "Prompt engineering plays an essential role in optimizing the performance of large language models.",
+    "domain": "technical"
+  },
+  {
+    "id": "trans-005",
+    "source_lang": "vi",
+    "target_lang": "en",
+    "source_text": "Bạn có thể giải thích sự khác biệt giữa học trong ngữ cảnh và tinh chỉnh mô hình không?",
+    "reference_translation": "Can you explain the difference between in-context learning and model fine-tuning?",
+    "domain": "technical"
+  },
+  {
+    "id": "trans-006",
+    "source_lang": "vi",
+    "target_lang": "en",
+    "source_text": "Hôm nay thời tiết rất dễ chịu và mát mẻ.",
+    "reference_translation": "The weather today is very pleasant and cool.",
+    "domain": "daily-life"
+  }
+]
