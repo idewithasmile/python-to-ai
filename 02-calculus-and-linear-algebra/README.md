@@ -39,6 +39,7 @@ By the end of this module, you should be able to:
 | Date | Topic | Materials |
 | :--- | :--- | :--- |
 | 2026-11-04 | For, List, and Dictionary | [Study guide and notebooks](2026-11-04-for-list-and-dictionary/) |
+| 2026-11-10 | List for 2D data | [Study guide and notebooks](2026-11-10-list-for-2d-data/) |
 
 ## Milestone Project: Math-for-ML Toolkit
 
