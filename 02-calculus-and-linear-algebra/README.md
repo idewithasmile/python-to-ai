@@ -40,6 +40,7 @@ By the end of this module, you should be able to:
 | :--- | :--- | :--- |
 | 2026-11-04 | For, List, and Dictionary | [Study guide and notebooks](2026-11-04-for-list-and-dictionary/) |
 | 2026-11-10 | List for 2D data | [Study guide and notebooks](2026-11-10-list-for-2d-data/) |
+| 2026-11-11 | Construct loss functions with different targets | [Study guide and notebooks](2026-11-11-construct-loss-functions-with-different-targets/) |
 
 ## Milestone Project: Math-for-ML Toolkit
 
