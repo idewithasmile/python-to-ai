@@ -118,6 +118,8 @@ The dates below are review checkpoints, not a race. If a week slips, use the nex
 
 - [x] **2026-11-11 · Construct loss functions with different targets** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-11-construct-loss-functions-with-different-targets/)
 
+- [x] **2026-11-12 · Hyper-parameter optimization** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-12-hyper-parameter-optimization/)
+
 - [x] **2026-11-25 · Linear Regression (L1, L2, and Huber losses — Level 2)** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-25-linear-regression-l1-l2-and-huber-losses-level-2/)
 
 - [ ] **Module complete** — all weekly labs and the milestone are finished.
