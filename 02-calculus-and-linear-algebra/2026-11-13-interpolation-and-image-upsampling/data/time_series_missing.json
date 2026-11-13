@@ -1,0 +1,34 @@
+{
+  "boundary_missing_series": [
+    null,
+    2.2,
+    2.0,
+    2.2,
+    null,
+    2.7,
+    null,
+    4.9,
+    null
+  ],
+  "expected_linear_imputed": [
+    2.2,
+    2.2,
+    2.0,
+    2.2,
+    2.45,
+    2.7,
+    3.8,
+    4.9,
+    4.9
+  ],
+  "trailing_missing_series": [
+    2.0,
+    2.2,
+    null,
+    2.7,
+    4.9,
+    6.2,
+    null,
+    null
+  ]
+}

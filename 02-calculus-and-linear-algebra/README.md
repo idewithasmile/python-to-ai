@@ -42,6 +42,7 @@ By the end of this module, you should be able to:
 | 2026-11-10 | List for 2D data | [Study guide and notebooks](2026-11-10-list-for-2d-data/) |
 | 2026-11-11 | Construct loss functions with different targets | [Study guide and notebooks](2026-11-11-construct-loss-functions-with-different-targets/) |
 | 2026-11-12 | Hyper-parameter optimization | [Study guide and notebooks](2026-11-12-hyper-parameter-optimization/) |
+| 2026-11-13 | Interpolation and Image upsampling | [Study guide and notebooks](2026-11-13-interpolation-and-image-upsampling/) |
 
 ## Milestone Project: Math-for-ML Toolkit
 
