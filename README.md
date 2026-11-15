@@ -124,6 +124,8 @@ The dates below are review checkpoints, not a race. If a week slips, use the nex
 
 - [x] **2026-11-14 · Database - SQL (1)** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-14-database-sql-1/)
 
+- [x] **2026-11-15 · Interpolation Practice Lab** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-15-interpolation-practice-lab/)
+
 - [x] **2026-11-25 · Linear Regression (L1, L2, and Huber losses — Level 2)** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-25-linear-regression-l1-l2-and-huber-losses-level-2/)
 
 - [ ] **Module complete** — all weekly labs and the milestone are finished.
