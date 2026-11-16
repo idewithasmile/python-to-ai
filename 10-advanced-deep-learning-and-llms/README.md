@@ -4,6 +4,8 @@
 
 **Weeks 51–54 · October 18–November 14, 2027 · Status: Planned**
 
+**Topics:** `large-language-models` · `llm` · `rag` · `ai-agents` · `graph-neural-networks` · `reinforcement-learning` · `multimodal-llm` · `fastapi`
+
 ## Overview
 
 This final module connects reinforcement learning, graph neural networks, point clouds, multimodal large language models, retrieval, agents, and deployment. It is deliberately integrative: the capstone should combine at least two earlier modules into a system that can be evaluated, explained, and reproduced.

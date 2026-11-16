@@ -11,6 +11,9 @@
 ![Status: In Progress](https://img.shields.io/badge/Status-In%20Progress-blue)
 ![Modules: 10](https://img.shields.io/badge/Modules-10-6f42c1)
 ![Duration: 54 weeks](https://img.shields.io/badge/Duration-54%20weeks-2ea44f)
+[![Curriculum Site](https://img.shields.io/badge/Site-GitHub%20Pages-0ea5e9?logo=githubpages&logoColor=white)](https://idewithasmile.github.io/python-to-ai/)
+
+**Topics:** `python` · `artificial-intelligence` · `machine-learning` · `deep-learning` · `computer-vision` · `nlp` · `generative-ai` · `llm` · `rag` · `pytorch` · `numpy` · `data-science` · `jupyter-notebooks` · `ai-roadmap`
 
 `python-to-ai` is an independent, project-driven curriculum for learning Python, mathematics, classical machine learning, deep learning, computer vision, natural language processing, generative AI, graph neural networks, and large language models. Every topic is learned twice: first from first principles, then with modern production libraries.
 
@@ -368,6 +371,24 @@ Progress is tracked directly in the [Master Roadmap](#master-roadmap). Check wee
 - **Data and models:** datasets larger than 50 MB and model weights are never committed. Use download scripts, dataset cards, and local ignored directories.
 - **Modern APIs:** examples target Python 3.10+, PyTorch 2.x, and current Hugging Face libraries. Deprecated APIs are upgraded rather than preserved.
 - **Responsible AI:** projects involving people, generated media, or sensitive data must document consent, licensing, bias, privacy, and misuse risks.
+
+## Frequently Asked Questions
+
+### What is `python-to-ai`?
+
+`python-to-ai` is a free, open-source, 54-week AI and machine learning curriculum organized into 10 progressive modules. It guides learners from Python fundamentals, algorithms, calculus, linear algebra, and statistics to classical machine learning, deep learning with NumPy and PyTorch, computer vision, NLP, generative AI, graph neural networks, and large language models (LLMs, RAG, and AI agents).
+
+### Who is this Python and AI roadmap designed for?
+
+It is built for self-learners, students, and software engineers who want a structured, project-based path into artificial intelligence. Every concept is learned twice: first implemented from first principles (pure Python and NumPy) and then applied with modern production tools (scikit-learn, PyTorch, Hugging Face Transformers, and OpenCV).
+
+### Do I need an expensive GPU to complete the curriculum?
+
+No. All required notebooks and exercises run on a standard CPU using lightweight datasets, while optional GPU acceleration notes are provided in [`docs/setup.md`](docs/setup.md) for deep learning, computer vision, and generative AI labs.
+
+### What tools and libraries are covered?
+
+Core technologies include Python 3.10+, NumPy, pandas, Matplotlib, Seaborn, scikit-learn, PyTorch 2.x, OpenCV, Hugging Face Transformers, PyTorch Geometric, Gymnasium, JupyterLab, and `pytest`.
 
 ## Contributing
 

@@ -4,6 +4,8 @@
 
 **Weeks 12–17 · January 18–February 28, 2027 · Status: Planned**
 
+**Topics:** `probability` · `statistics` · `bayes-theorem` · `hypothesis-testing` · `ab-testing` · `naive-bayes` · `monte-carlo` · `exploratory-data-analysis`
+
 ## Overview
 
 This module builds the probabilistic and statistical reasoning needed to design experiments, quantify uncertainty, and evaluate models honestly. You will move from probability axioms and Bayes' theorem to distributions, estimation, hypothesis testing, resampling, and exploratory data analysis, then connect the theory to a Naive Bayes classifier and a data-driven report.

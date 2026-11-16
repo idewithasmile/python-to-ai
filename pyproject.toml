@@ -15,25 +15,49 @@ authors = [
 ]
 keywords = [
   "python",
+  "artificial-intelligence",
   "machine-learning",
   "deep-learning",
+  "neural-networks",
   "computer-vision",
   "natural-language-processing",
   "generative-ai",
+  "large-language-models",
+  "llm",
+  "rag",
+  "pytorch",
+  "numpy",
+  "data-science",
+  "linear-algebra",
+  "probability-and-statistics",
+  "jupyter-notebooks",
+  "ai-curriculum",
+  "roadmap",
   "education",
 ]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Intended Audience :: Education",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
+  "Topic :: Education",
   "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Information Analysis",
 ]
 dynamic = ["dependencies"]
+
+[project.urls]
+Homepage = "https://idewithasmile.github.io/python-to-ai/"
+Repository = "https://github.com/idewithasmile/python-to-ai"
+Documentation = "https://idewithasmile.github.io/python-to-ai/"
+Issues = "https://github.com/idewithasmile/python-to-ai/issues"
 
 [tool.setuptools]
 py-modules = []

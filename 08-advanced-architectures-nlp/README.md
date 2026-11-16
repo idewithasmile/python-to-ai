@@ -4,6 +4,8 @@
 
 **Weeks 40–44 · August 2–September 5, 2027 · Status: Planned**
 
+**Topics:** `natural-language-processing` · `nlp` · `huggingface` · `transformers` · `named-entity-recognition` · `question-answering` · `dpo` · `quantization`
+
 ## Overview
 
 This module covers modern natural language processing with transformer-based models and the Hugging Face ecosystem. You will work from tokenization and sequence labeling through transformer fine-tuning, question answering, machine translation, text generation, preference optimization, and efficient inference.

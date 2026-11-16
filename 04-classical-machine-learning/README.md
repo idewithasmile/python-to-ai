@@ -4,6 +4,8 @@
 
 **Weeks 18–22 · March 1–April 4, 2027 · Status: Planned**
 
+**Topics:** `machine-learning` · `scikit-learn` · `feature-engineering` · `decision-trees` · `random-forest` · `gradient-boosting` · `svm` · `cross-validation`
+
 ## Overview
 
 This module covers the classical machine learning toolkit that remains essential for tabular data, baselines, and model interpretation. You will learn the full workflow: problem framing, leakage-free splits, feature pipelines, model selection, evaluation, error analysis, and documentation.

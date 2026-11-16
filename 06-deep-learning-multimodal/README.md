@@ -4,6 +4,8 @@
 
 **Weeks 28–33 · May 10–June 20, 2027 · Status: Planned**
 
+**Topics:** `cnn` · `rnn` · `lstm` · `transformers` · `transfer-learning` · `resnet` · `timm` · `time-series` · `multimodal-learning`
+
 ## Overview
 
 This module extends neural networks to structured data: images, sequences, text, and time series. You will build convolutional networks from scratch, study training and generalization, use pretrained vision models, implement recurrent models, and fine-tune transformer encoders.

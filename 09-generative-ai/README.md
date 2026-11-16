@@ -4,6 +4,8 @@
 
 **Weeks 45–50 · September 6–October 17, 2027 · Status: Planned**
 
+**Topics:** `generative-ai` · `vae` · `gan` · `diffusion-models` · `stable-diffusion` · `controlnet` · `lora` · `qlora` · `llm-fine-tuning`
+
 ## Overview
 
 This module introduces generative modeling for images and language. You will study autoencoders and variational autoencoders, generative adversarial networks, diffusion models, latent diffusion, controllable image generation, and parameter-efficient LLM fine-tuning.

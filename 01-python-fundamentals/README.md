@@ -4,6 +4,8 @@
 
 **Weeks 1–4 · November 2–29, 2026 · Status: In progress**
 
+**Topics:** `python` · `algorithms` · `data-structures` · `oop` · `big-o` · `recursion` · `dynamic-programming` · `pandas` · `pytest`
+
 ## Overview
 
 This module builds the programming foundation for the rest of the curriculum. The emphasis is on writing correct, readable, tested Python rather than memorizing syntax. You will move from control flow and data structures to object-oriented design, recursion, algorithmic problem solving, tabular data manipulation, and a small but complete application.

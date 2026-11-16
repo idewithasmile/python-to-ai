@@ -4,6 +4,8 @@
 
 **Weeks 34–39 · June 21–August 1, 2027 · Status: Planned**
 
+**Topics:** `computer-vision` · `opencv` · `yolo` · `object-detection` · `image-segmentation` · `unet` · `object-tracking` · `image-restoration`
+
 ## Overview
 
 This module applies deep learning to real computer vision tasks. You will work on image restoration, segmentation, object detection, tracking, video understanding, and medical imaging, with an emphasis on evaluation and failure analysis.

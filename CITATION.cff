@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this curriculum or its notebooks in your learning, teaching, or projects, please cite it as below."
+title: "python-to-ai: A 54-Week Curriculum from Python Fundamentals to Modern AI Systems"
+type: software
+authors:
+  - name: "python-to-ai contributors"
+    alias: "idewithasmile"
+repository-code: "https://github.com/idewithasmile/python-to-ai"
+url: "https://idewithasmile.github.io/python-to-ai/"
+license: MIT
+abstract: >-
+  An open-source, project-driven 54-week curriculum spanning Python fundamentals,
+  mathematics for machine learning, probability and statistics, classical machine learning,
+  deep learning from first principles with NumPy and PyTorch, computer vision,
+  natural language processing, generative AI, graph neural networks, and large language models.
+keywords:
+  - python
+  - artificial-intelligence
+  - machine-learning
+  - deep-learning
+  - computer-vision
+  - natural-language-processing
+  - generative-ai
+  - large-language-models
+  - pytorch
+  - numpy
+  - rag
+  - data-science
+  - ai-curriculum
+  - study-guide

@@ -4,6 +4,8 @@
 
 **Weeks 5–11 · November 30, 2026–January 17, 2027 · Status: In progress**
 
+**Topics:** `numpy` · `linear-algebra` · `calculus` · `gradient-descent` · `linear-regression` · `svd` · `pca` · `cosine-similarity` · `math-for-ml`
+
 ## Overview
 
 This module develops the mathematical language used throughout machine learning. You will work with vectors, matrices, norms, derivatives, gradients, and matrix calculus, then implement the same ideas in NumPy. The goal is not abstract proof fluency alone; it is the ability to read a model description, derive its objective, implement it numerically, and diagnose why training behaves the way it does.

@@ -4,6 +4,8 @@
 
 **Weeks 23–27 · April 5–May 9, 2027 · Status: Planned**
 
+**Topics:** `deep-learning` · `neural-networks` · `pytorch` · `numpy` · `autograd` · `backpropagation` · `mlp` · `adamw` · `optimization`
+
 ## Overview
 
 This module makes the transition from classical models to neural networks. You will implement logistic regression, softmax regression, and a multilayer perceptron first with NumPy and manual gradients, then with PyTorch tensors, autograd, datasets, and training loops.
