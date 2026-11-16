@@ -45,6 +45,7 @@ By the end of this module, you should be able to:
 | 2026-11-13 | Interpolation and Image upsampling | [Study guide and notebooks](2026-11-13-interpolation-and-image-upsampling/) |
 | 2026-11-14 | Database - SQL (1) | [Study guide and notebooks](2026-11-14-database-sql-1/) |
 | 2026-11-15 | Interpolation Practice Lab | [Study guide and notebooks](2026-11-15-interpolation-practice-lab/) |
+| 2026-11-16 | List for 3D data | [Study guide and notebooks](2026-11-16-list-for-3d-data/) |
 
 ## Milestone Project: Math-for-ML Toolkit
 
