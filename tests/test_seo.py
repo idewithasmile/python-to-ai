@@ -53,6 +53,12 @@ class SeoMetadataTest(unittest.TestCase):
             self.assertTrue((out / "sitemap.xml").is_file())
             self.assertTrue((out / ".nojekyll").is_file())
             self.assertTrue((out / "assets" / "social-preview.png").is_file())
+            verification = out / "googleee41da0f126d3fe3.html"
+            self.assertTrue(verification.is_file())
+            self.assertIn(
+                "google-site-verification: googleee41da0f126d3fe3.html",
+                verification.read_text(encoding="utf-8"),
+            )
 
             robots = (out / "robots.txt").read_text(encoding="utf-8")
             self.assertIn(

@@ -1133,6 +1133,12 @@ def build_site(root: Path, output_dir: Path) -> list[Path]:
         if src.is_file():
             shutil.copy2(src, assets_out / asset_name)
 
+    for search_dir in (root, root / "docs"):
+        if not search_dir.is_dir():
+            continue
+        for verification_file in sorted(search_dir.glob("google*.html")):
+            shutil.copy2(verification_file, output_dir / verification_file.name)
+
     generated: list[Path] = []
     today_iso = date.today().isoformat()
     sitemap_entries: list[tuple[str, str, str, str]] = [
