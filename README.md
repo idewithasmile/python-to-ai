@@ -133,6 +133,8 @@ The dates below are review checkpoints, not a race. If a week slips, use the nex
 
 - [x] **2026-11-17 · Understanding Derivative and Gradient** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-17-understanding-derivative-and-gradient/)
 
+- [x] **2026-11-18 · Ensembling** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-18-ensembling/)
+
 - [x] **2026-11-25 · Linear Regression (L1, L2, and Huber losses — Level 2)** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-25-linear-regression-l1-l2-and-huber-losses-level-2/)
 
 - [ ] **Module complete** — all weekly labs and the milestone are finished.
