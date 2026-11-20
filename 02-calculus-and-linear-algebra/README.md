@@ -51,6 +51,7 @@ By the end of this module, you should be able to:
 | 2026-11-17 | Understanding Derivative and Gradient | [Study guide and notebooks](2026-11-17-understanding-derivative-and-gradient/) |
 | 2026-11-18 | Ensembling | [Study guide and notebooks](2026-11-18-ensembling/) |
 | 2026-11-19 | Edge Detection and Gradient-based Optimization | [Study guide and notebooks](2026-11-19-edge-detection-and-gradient-based-optimization/) |
+| 2026-11-20 | Database - SQL (2) | [Study guide and notebooks](2026-11-20-database-sql-2/) |
 
 ## Milestone Project: Math-for-ML Toolkit
 
