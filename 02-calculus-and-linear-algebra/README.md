@@ -53,6 +53,7 @@ By the end of this module, you should be able to:
 | 2026-11-19 | Edge Detection and Gradient-based Optimization | [Study guide and notebooks](2026-11-19-edge-detection-and-gradient-based-optimization/) |
 | 2026-11-20 | Database - SQL (2) | [Study guide and notebooks](2026-11-20-database-sql-2/) |
 | 2026-11-21 | Derivative and its Applications Practice Lab | [Study guide and notebooks](2026-11-21-derivative-and-its-applications-practice-lab/) |
+| 2026-11-22 | Array 1D Using Numpy | [Study guide and notebooks](2026-11-22-array-1d-using-numpy/) |
 
 ## Milestone Project: Math-for-ML Toolkit
 
