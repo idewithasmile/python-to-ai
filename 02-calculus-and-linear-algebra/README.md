@@ -54,6 +54,7 @@ By the end of this module, you should be able to:
 | 2026-11-20 | Database - SQL (2) | [Study guide and notebooks](2026-11-20-database-sql-2/) |
 | 2026-11-21 | Derivative and its Applications Practice Lab | [Study guide and notebooks](2026-11-21-derivative-and-its-applications-practice-lab/) |
 | 2026-11-22 | Array 1D Using Numpy | [Study guide and notebooks](2026-11-22-array-1d-using-numpy/) |
+| 2026-11-23 | Linear Regression (L1, L2, and Huber losses - level 1) | [Study guide and notebooks](2026-11-23-linear-regression-l1-l2-and-huber-losses-level-1/) |
 
 ## Milestone Project: Math-for-ML Toolkit
 
