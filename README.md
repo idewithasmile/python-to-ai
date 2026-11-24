@@ -145,6 +145,8 @@ The dates below are review checkpoints, not a race. If a week slips, use the nex
 
 - [x] **2026-11-23 · Linear Regression (L1, L2, and Huber losses - level 1)** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-23-linear-regression-l1-l2-and-huber-losses-level-1/)
 
+- [x] **2026-11-24 · Image Augmentation** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-24-image-augmentation/)
+
 - [x] **2026-11-25 · Linear Regression (L1, L2, and Huber losses — Level 2)** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-25-linear-regression-l1-l2-and-huber-losses-level-2/)
 
 - [ ] **Module complete** — all weekly labs and the milestone are finished.
