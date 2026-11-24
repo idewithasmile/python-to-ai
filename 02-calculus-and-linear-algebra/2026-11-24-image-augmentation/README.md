@@ -49,9 +49,12 @@ In practice, frameworks compute the **inverse mapping** $\mathbf{p} = \mathbf{M}
 Flipping reflects an image across a central spatial axis, teaching models orientation invariance where reflection preserves semantic class (e.g., natural objects, animals—though not directional text or traffic arrows).
 
 - **Horizontal Flip** (reflection across the vertical centerline $x = (W - 1)/2$):
-  $$x' = (W - 1) - x, \qquad y' = y, \qquad \mathbf{M}_{\text{hflip}} = \begin{bmatrix} -1 & 0 & W - 1 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$$
+
+$$x' = (W - 1) - x, \qquad y' = y, \qquad \mathbf{M}_{\text{hflip}} = \begin{bmatrix} -1 & 0 & W - 1 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$$
+
 - **Vertical Flip** (reflection across the horizontal centerline $y = (H - 1)/2$):
-  $$x' = x, \qquad y' = (H - 1) - y, \qquad \mathbf{M}_{\text{vflip}} = \begin{bmatrix} 1 & 0 & 0 \\ 0 & -1 & H - 1 \\ 0 & 0 & 1 \end{bmatrix}$$
+
+$$x' = x, \qquad y' = (H - 1) - y, \qquad \mathbf{M}_{\text{vflip}} = \begin{bmatrix} 1 & 0 & 0 \\ 0 & -1 & H - 1 \\ 0 & 0 & 1 \end{bmatrix}$$
 
 ### 1.2 Scaling (Resizing)
 
@@ -86,7 +89,7 @@ Photometric transformations apply point-wise or neighborhood intensity mappings 
 
 Brightness adjustment adds a constant offset $\beta$ across channels, clipped to the valid range:
 
-$$I'(x, y) = \operatorname{clip}\!\big(I(x, y) + \beta, \; 0, \; 255\big)$$
+$$I'(x, y) = \mathrm{clip}\bigl(I(x, y) + \beta, \; 0, \; 255\bigr)$$
 
 Positive $\beta > 0$ brightens the image; negative $\beta < 0$ darkens it.
 
@@ -96,10 +99,10 @@ Contrast controls the separation between dark and bright intensity levels. Five 
 
 | Method | Mathematical Formulation ($u \in [0, 1]$) | Behavioral Profile |
 | :--- | :--- | :--- |
-| **Linear Contrast** | $u' = \operatorname{clip}\!\big(\alpha (u - 0.5) + 0.5, \; 0, \; 1\big)$ | Uniformly scales deviations around midpoint $0.5$; $\alpha > 1$ boosts contrast, $\alpha < 1$ compresses it. |
+| **Linear Contrast** | $u' = \mathrm{clip}\bigl(\alpha (u - 0.5) + 0.5, \; 0, \; 1\bigr)$ | Uniformly scales deviations around midpoint $0.5$; $\alpha > 1$ boosts contrast, $\alpha < 1$ compresses it. |
 | **Gamma Correction** | $u' = u^{\gamma}, \quad \gamma > 0$ | Nonlinear power-law curve; $\gamma < 1$ expands shadow detail, $\gamma > 1$ darkens midtones and highlights. |
-| **Sigmoid Contrast** | $u' = \dfrac{1}{1 + \exp\!\big(-g(u - c)\big)}$ | S-shaped curve with gain $g$ and cutoff $c$; boosts midtone contrast smoothly while compressing extremes. |
-| **Histogram Equalization (HE)** | $u' = \operatorname{CDF}_I(u) = \sum_{k=0}^{\lfloor 255 u \rfloor} p_I(k)$ | Global monotonic mapping that flattens the intensity histogram across $[0, 255]$. |
+| **Sigmoid Contrast** | $u' = \frac{1}{1 + \exp(-g(u - c))}$ | S-shaped curve with gain $g$ and cutoff $c$; boosts midtone contrast smoothly while compressing extremes. |
+| **Histogram Equalization (HE)** | $u' = \mathrm{CDF}_I(u) = \sum_{k=0}^{\lfloor 255 u \rfloor} p_I(k)$ | Global monotonic mapping that flattens the intensity histogram across $[0, 255]$. |
 | **CLAHE** | Local HE inside $M \times N$ tiles with clip limit $\tau$ + bilinear tile blending | Enhances local contrast while preventing noise over-amplification in uniform regions. |
 
 #### Histogram Equalization Derivation
@@ -123,12 +126,12 @@ Blurring reduces high-frequency spatial detail, helping classifiers avoid overfi
 | :--- | :--- | :---: | :--- |
 | **Average (Box) Blur** | Uniform kernel $K_{i,j} = \frac{1}{k^2}$ over $k \times k$ window | No | Fast isotropic smoothing |
 | **Gaussian Blur** | $G(x, y) = \frac{1}{2\pi\sigma^2}\exp\!\left(-\frac{x^2+y^2}{2\sigma^2}\right)$ | No | Natural optical defocus, noise suppression |
-| **Median Blur** | $I'(x, y) = \operatorname{median}_{(u, v) \in \Omega} I(x+u, y+v)$ | Mostly | Removing salt-and-pepper impulse noise |
-| **Bilateral Filter** | $W \propto \exp\!\left(-\frac{\|\mathbf{p}-\mathbf{q}\|^2}{2\sigma_s^2} - \frac{(I(\mathbf{p})-I(\mathbf{q}))^2}{2\sigma_r^2}\right)$ | **Yes** | Smoothing flat regions while keeping edges sharp |
+| **Median Blur** | $I'(x, y) = \mathrm{median}_{(u, v) \in \Omega} \, I(x+u, y+v)$ | Mostly | Removing salt-and-pepper impulse noise |
+| **Bilateral Filter** | $W \propto \exp\left(-\frac{\Vert\mathbf{p}-\mathbf{q}\Vert^2}{2\sigma_s^2} - \frac{(I(\mathbf{p})-I(\mathbf{q}))^2}{2\sigma_r^2}\right)$ | **Yes** | Smoothing flat regions while keeping edges sharp |
 | **Motion Blur** | Directional 1D line kernel oriented at angle $\theta$ and length $k$ | No | Simulating camera shake or moving subjects |
 | **Mean-Shift Blur** | Iterative mode seeking in joint 5D space $(x, y, R, G, B)$ | **Yes** | Color quantization and region smoothing |
 
-Notice the mathematical elegance of the **Bilateral Filter**: unlike Gaussian blur, which weights neighbors strictly by spatial distance $\|\mathbf{p} - \mathbf{q}\|$, the bilateral kernel multiplies the spatial Gaussian by a range Gaussian over intensity differences $|I(\mathbf{p}) - I(\mathbf{q})|$. Across a sharp edge, $|I(\mathbf{p}) - I(\mathbf{q})|$ is large, driving the cross-edge weight toward zero and preventing edge bleeding.
+Notice the mathematical elegance of the **Bilateral Filter**: unlike Gaussian blur, which weights neighbors strictly by spatial distance $\Vert\mathbf{p} - \mathbf{q}\Vert$, the bilateral kernel multiplies the spatial Gaussian by a range Gaussian over intensity differences $|I(\mathbf{p}) - I(\mathbf{q})|$. Across a sharp edge, $|I(\mathbf{p}) - I(\mathbf{q})|$ is large, driving the cross-edge weight toward zero and preventing edge bleeding.
 
 ---
 
@@ -158,7 +161,7 @@ The erased rectangle is filled with either a constant value, dataset mean, or pe
 
 Random single-patch deletion risks either erasing the entire foreground object or missing it completely. **GridMask** (Chen et al., 2020) resolves this trade-off with a structured periodic grid of square masks parameterized by $(r, d)$:
 - $d$: spatial period (distance between adjacent masked units),
-- $r \in (0, 1)$: ratio of kept edge length, so each deleted square has side $k = (1 - r) d$ (or equivalently the keep ratio is $k_{\text{keep}} = 1 - (1 - r)^2$ depending on convention; specifically in the original paper, $r = 1 - \frac{\text{deleted\_side}}{d}$ controls the exact balance between deletion and retention).
+- $r \in (0, 1)$: ratio of kept edge length, so each deleted square has side $k_{\mathrm{del}} = (1 - r) d$ (or equivalently $r = 1 - \frac{k_{\mathrm{del}}}{d}$, with keep ratio $k_{\text{keep}} = 1 - (1 - r)^2$ depending on convention, controlling the exact balance between deletion and retention).
 
 As illustrated across parameter pairs such as $(r, d) = (120, 0.1)$, $(100, 0.4)$, and $(50, 0.3)$ (pixel period and keep ratio), periodic spacing guarantees that neither whole-object erasure nor zero-occlusion occurs systematically.
 
@@ -172,8 +175,7 @@ Rather than preserving hard one-hot targets, **mixing augmentations** synthesize
 
 **MixUp** (Zhang et al., 2018) linearly interpolates both inputs and one-hot target vectors for a randomly paired sample $(x_i, y_i)$ and $(x_j, y_j)$:
 
-$$\tilde{x} = \lambda x_i + (1 - \lambda) x_j$$
-$$\tilde{y} = \lambda y_i + (1 - \lambda) y_j$$
+$$\tilde{x} = \lambda x_i + (1 - \lambda) x_j, \qquad \tilde{y} = \lambda y_i + (1 - \lambda) y_j$$
 
 where the mixing coefficient $\lambda \sim \text{Beta}(\alpha, \alpha)$ with hyperparameter $\alpha > 0$. Equivalently, the training objective blends the two cross-entropy losses:
 
@@ -204,12 +206,17 @@ Random box placement in CutMix may copy background sky or grass while assigning 
 **RICAP** (Takahashi et al., 2019) crops four random patches from four distinct images $(I_0, I_1, I_2, I_3)$ in a mini-batch and tiles them into a $2 \times 2$ composite image of size $I_x \times I_y$:
 
 1. Sample a split boundary point $(w, h)$ via Beta distributions:
-   $$w = \operatorname{round}\!\big(I_x \cdot \text{Beta}(\beta, \beta)\big), \qquad h = \operatorname{round}\!\big(I_y \cdot \text{Beta}(\beta, \beta)\big)$$
+
+$$w = \mathrm{round}\bigl(I_x \cdot \text{Beta}(\beta, \beta)\bigr), \qquad h = \mathrm{round}\bigl(I_y \cdot \text{Beta}(\beta, \beta)\bigr)$$
+
    which defines the four quadrant dimensions:
-   $$(w_k, h_k) \in \{(w, h),\; (I_x - w, h),\; (w, I_y - h),\; (I_x - w, I_y - h)\}$$
+
+$$(w_k, h_k) \in \{(w, h),\; (I_x - w, h),\; (w, I_y - h),\; (I_x - w, I_y - h)\}$$
+
 2. Randomly sample crop origins $(x_k, y_k)$ inside each of the four source images and stitch the four crops into $\tilde{I}$.
 3. Compute the area-weighted loss across all four source labels $c_k$ with weights $W_k = \frac{w_k h_k}{I_x I_y}$ (note $\sum_{k=0}^3 W_k = 1$):
-   $$\mathcal{L}_{\text{RICAP}} = \sum_{k=0}^{3} W_k \, \mathcal{L}_{\text{CE}}\big(f_\theta(\tilde{I}), c_k\big)$$
+
+$$\mathcal{L}_{\text{RICAP}} = \sum_{k=0}^{3} W_k \, \mathcal{L}_{\text{CE}}\bigl(f_\theta(\tilde{I}), c_k\bigr)$$
 
 Three boundary placement regimes exist:
 - **anywhere-RICAP:** $(w, h)$ can fall anywhere in $[0, I_x] \times [0, I_y]$.
@@ -232,7 +239,7 @@ Three boundary placement regimes exist:
 
 Data augmentation need not stop at training. **Test-Time Augmentation (TTA)** generates $K$ augmented views $\{\mathcal{T}_1(x), \dots, \mathcal{T}_K(x)\}$ of a single test image (for example, original + horizontal flip + slight crop/shift) and averages the model's predicted class probabilities:
 
-$$\hat{\mathbf{p}}_{\text{TTA}}(x) = \frac{1}{K} \sum_{k=1}^{K} \operatorname{softmax}\!\big(f_\theta(\mathcal{T}_k(x))\big), \qquad \hat{y} = \arg\max_c \, [\hat{\mathbf{p}}_{\text{TTA}}(x)]_c$$
+$$\hat{\mathbf{p}}_{\text{TTA}}(x) = \frac{1}{K} \sum_{k=1}^{K} \mathrm{softmax}\bigl(f_\theta(\mathcal{T}_k(x))\bigr), \qquad \hat{y} = \arg\max_c \, [\hat{\mathbf{p}}_{\text{TTA}}(x)]_c$$
 
 Because random perturbations across views cancel out variance in predictions (an implicit single-model ensemble), TTA typically boosts classification accuracy and reduces calibration error at the cost of $K\times$ inference latency.
 
@@ -244,7 +251,7 @@ $$\mathbf{z} = f_\theta(x), \qquad \tilde{\mathbf{z}} = f_\theta(\tilde{x})$$
 
 and penalize prediction disagreement between the two views using Mean Squared Error alongside the supervised Cross-Entropy loss:
 
-$$\mathcal{L}_{\Pi} = \mathcal{L}_{\text{CE}}(\mathbf{z}, y) + \alpha(t) \, \|\mathbf{z} - \tilde{\mathbf{z}}\|_2^2$$
+$$\mathcal{L}_{\Pi} = \mathcal{L}_{\text{CE}}(\mathbf{z}, y) + \alpha(t) \, \Vert\mathbf{z} - \tilde{\mathbf{z}}\Vert_2^2$$
 
 where $\alpha(t)$ controls the consistency weight (often ramped up during early epochs so the model stabilizes before enforcing invariance).
 
