@@ -67,7 +67,11 @@ select = [
   "PTH",
   "RUF",
 ]
-ignore = ["E501"]
+ignore = [
+  "E501",
+  "RUF001",  # ambiguous unicode in string literals (intentional in axis labels)
+  "RUF002",  # ambiguous unicode in docstrings (intentional en-dash)
+]
 
 [tool.ruff.format]
 quote-style = "double"
