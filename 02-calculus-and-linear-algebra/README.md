@@ -56,6 +56,7 @@ By the end of this module, you should be able to:
 | 2026-11-22 | Array 1D Using Numpy | [Study guide and notebooks](2026-11-22-array-1d-using-numpy/) |
 | 2026-11-23 | Linear Regression (L1, L2, and Huber losses - level 1) | [Study guide and notebooks](2026-11-23-linear-regression-l1-l2-and-huber-losses-level-1/) |
 | 2026-11-24 | Image Augmentation | [Study guide and notebooks](2026-11-24-image-augmentation/) |
+| 2026-11-26 | Database - SQL (3) | [Study guide and notebooks](2026-11-26-database-sql-3/) |
 
 ## Milestone Project: Math-for-ML Toolkit
 
