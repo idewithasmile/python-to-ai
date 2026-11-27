@@ -151,6 +151,8 @@ The dates below are review checkpoints, not a race. If a week slips, use the nex
 
 - [x] **2026-11-26 · Database - SQL (3)** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-26-database-sql-3/)
 
+- [x] **2026-11-27 · Linear Regression Practice Lab** — [study guide and notebooks](02-calculus-and-linear-algebra/2026-11-27-linear-regression-practice-lab/)
+
 - [ ] **Module complete** — all weekly labs and the milestone are finished.
 - [ ] **Week 05** · Nov 30–Dec 6, 2026 — NumPy arrays, broadcasting, vectorization, and numerical stability. *Output:* NumPy warm-up.
 - [ ] **Week 06** · Dec 7–13, 2026 — Derivatives, gradients, the chain rule, and gradient descent from scratch. *Output:* optimization notebook.
